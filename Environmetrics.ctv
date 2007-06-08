@@ -1,0 +1,198 @@
+<CRANTaskView>
+	<name>Environmetrics</name>
+	<topic>Analysis of ecological and environmental data</topic>
+	<maintainer>Gavin Simpson</maintainer>
+	<info>
+		Base R ships with much functionality for analysing ecological and environmental 
+		data, in particular in the standard package stats. This
+	  functionality is complemented by many packages on CRAN, which allow specific models 
+	  particularly suited to analysing the sorts of multivariate data often produced within
+	  ecology and the environmental sciences. In particular, ordination methods are well provided for, with a 
+	  number of packages on CRAN implementing methods widely used in the field. A brief overview
+	  is given below. There is also considerable overlap between the tools
+	  for ecological and environmental data analysis in this view and spatial data analysis 
+	  in the <view>Spatial</view> view. The <view>Multivariate</view> and <view>Cluster</view> task views 
+	  cover material that complements the topics discussed here.
+	  
+	  The following methods are typical of the types of analyses applied to ecological and 
+	  environmental data. The packages required to run these analyses are listed. If you think 
+	  that a package is missing from the list or that priority should be given to certain packages, 
+	  please contact the task view maintainer.
+  	<ul>
+    	<li><em>Modelling species responses and other data</em>: Simple (multiple) linear regression models are fitted by
+    	<tt>lm()</tt> and Generalised Linear Models (GLM) are fitted by <tt>glm()</tt> in standard package stats. 
+    	Generalised Additive Model (GAM) functionality is provided by recommended package <pkg>mgcv</pkg> and an implementation of the S-PLUS
+    	function <tt>gam()</tt> is provided by <pkg>gam</pkg>.</li>
+    	<li><em>Tree-based models</em>: Tree-structured models for regression, classification and survival analysis, 
+    	following the ideas in the CART book, are implemented in <pkg>rpart</pkg> (shipped with base R) and 
+    	<pkg>VR</pkg> (package tree). An adaptation of <pkg>rpart</pkg> for multivariate responses is available in package <pkg>mvpart</pkg>. 
+    	The validity of trees can be investigated via permutation approaches with package 
+    	<pkg>rpart.permutation</pkg>. Graphical tools for the visualization of trees are available in packages 
+    	<pkg>maptree</pkg> and <pkg>pinktoe</pkg>. The Random Forest method of Breiman and Cutler is implemented in
+    	<pkg>randomForest</pkg>, providing classification and regression based on a forest of trees using random inputs. 
+    	Package <pkg>ipred</pkg> provides functions for improved predictive models for classification, regression and survival problems.
+    	<pkg>mda</pkg> implements Multivariate Adaptive Regression Splines, which provides a more flexible, tree-based approach to regression
+    	than the piecewise constant functions used in regression trees.</li>
+    	<li><em>Ordination</em>: 
+      	<ul>
+        	<li>Principal Components Analysis (PCA) is available in <tt>prcomp()</tt> (preferred) and <tt>princomp()</tt> in standard 
+          package stats. Packages <pkg>vegan</pkg> (<tt>rda()</tt>) and <pkg>labdsv</pkg> (<tt>pca()</tt>) provide more 
+          ecologically-oriented implementations. A form of PCA used in the climate and climate change fields is Empirical 
+          Orthogonal Function (EOF) analysis. <tt>EOF()</tt> in package <pkg>clim.pact</pkg> provides and implementation of EOF.</li>
+          <li>Redundancy Analysis (RDA) is available via <tt>rda()</tt> in <pkg>vegan</pkg> and <tt>pcaiv()</tt> in <pkg>ade4</pkg>.</li>
+          <li>Correspondence Analysis (CA) is available in <tt>cca()</tt> (<pkg>vegan</pkg>).</li>
+          <li>Canonical Correspondence Analysis (CCA) is implemented in <tt>cca()</tt> in <pkg>vegan</pkg>.</li>
+          <li>Detrended Correspondence Analysis (DCA) is implemented in <tt>decorana()</tt> in <pkg>vegan</pkg>.</li> 
+          <li>Principal coordinates analysis (PCO) is implemented in <tt>pco()</tt> in <pkg>labdsv</pkg>, <tt>pco()</tt> in 
+          <pkg>ecodist</pkg>,and <tt>cmdscale()</tt> in package MASS in <pkg>VR</pkg>.</li>
+          <li>Non-Metric multi-Dimensional Scaling (NMDS) is provided by <tt>isoMDS()</tt> in package MASS in bundle <pkg>VR</pkg>,
+          <tt>nmds()</tt> in <pkg>labdsv</pkg>, and <tt>nmds()</tt> in <pkg>ecodist</pkg>. <pkg>vegan</pkg> provides helper functions 
+          for <tt>isoMDS()</tt> for random starts of the algorithm and standardised scaling of results.</li>
+          <li>Coinertia analysis is in <tt>coinertia()</tt> and <tt>mcoa()</tt>, both in <pkg>ade4</pkg>.</li>
+          <li>Co-correspondence analysis to relate two ecological species data matrices is available in <pkg>cocorresp</pkg>.</li>
+          <li>Canonical Correlation Analysis (CCoA - not to be confused with CCA, above) is available in <tt>cancor()</tt> in 
+          standard package stats.</li>
+          <li>Procrustes rotation is available in <tt>procrustes()</tt> in <pkg>vegan</pkg> and <tt>procuste()</tt> in <pkg>ade4</pkg>, 
+          with both <pkg>vegan</pkg> and <pkg>ade4</pkg> providing functions to test the significance of the association between ordination 
+          configurations (as assessed by Procrustes rotation) using permutation/randomisation and Monte Carlo methods.</li>
+          <li><tt>capscale()</tt> in <pkg>vegan</pkg> provides the [Partial] Constrained Analysis of Principal Coordinates method that is 
+          similar to that of Anderson and Willis (2003), see <pkg>vegan</pkg> for more information and the reference.</li>
+          <li>Constrained Quadratic Ordination (CQO; formerly known as Canonical Gaussian Ordination (CGO)) is a maximum likelihood 
+          estimation alternative to CCA fit by Quadratic reduced rank vector GLMs. Constrained Additive Ordination (CAO) is a flexible 
+          alternative to CQO which uses reduced rank vector GAMs. These methods and more are provided in Thomas Yee's VGAM package. 
+          VGAM is not currently on CRAN - see the Links section below for a link to the VGAM web site.</li>
+        </ul>
+        See the <view>Multivariate</view> task view for complementary information. 
+    	</li>
+    	<li><em>Environmental time series</em>: Classical time series functionality is provided by the <tt>ar()</tt>, and 
+    	<tt>arima()</tt> functions in standard package stats for autoregressive (AR), moving average (MA), 
+    	autoregressive moving  average (ARMA) and integrated ARMA (ARIMA) models. The <pkg>dse1</pkg> and <pkg>dse2</pkg> packages 
+    	in the <tt>dse</tt> bundle provide a variety of more advanced estimation methods and multivariate time series analysis.
+    	Other contributed packages for time series include <pkg>tseries</pkg> and <pkg>zoo</pkg> for regular times series and <pkg>zoo</pkg>, 
+	    <pkg>its</pkg> and <tt>itrs()</tt> in <pkg>tseries</pkg> for irregularly sampled time series. <pkg>pastecs</pkg> provides functions 
+	    specifically tailored for the analysis of space-time ecological series. <pkg>strucchange</pkg>
+	    allows for testing, dating and monitoring of structural change in linear regression relationships.</li>
+	    <li><em>Cluster analysis</em>:
+	    	<ul>
+	    		<li><strong>Dissimilarity (distance) coefficients:</strong> Function <tt>dist()</tt> in stats, <tt>vegdist()</tt> in 
+	    		<pkg>vegan</pkg> <tt>dsvdis()</tt> in <pkg>labdsv</pkg>, <tt>Dist()</tt> in <pkg>amap</pkg>, <tt>distance</tt> in 
+	    		<pkg>ecodist</pkg> and a suite of functions in <pkg>ade4</pkg> calculate dissimilarity matrices from a wide range 
+	    		of coefficients.</li>
+			    <li><strong>Hierarchical cluster analysis:</strong> <tt>hclust()</tt> in stats and <tt>hcluster()</tt> in <pkg>amap</pkg> fit 
+			    hierarchical cluster analyses using a number of fusion methods. <pkg>pvclust</pkg> is a package for assessing the uncertainty 
+			    in hierarchical cluster analysis. It provides approximately unbiased p-values as well as bootstrap p-values. 
+			    Recommended package <pkg>cluster</pkg> provides functions for cluster analysis following the methods described in Kaufman 
+			    and Rousseeuw (1990 - Finding Groups in data: an introduction to cluster analysis. Wiley, New York.).</li>
+			    <li><strong>Partitioning methods:</strong> <tt>kmeans()</tt> in stats provides <em>K</em>-means clustering and 
+			    <tt>cmeans()</tt> in <pkg>e1071</pkg> implements a fuzzy version of the K-means algorithm. Recommended package 
+			    <pkg>cluster</pkg> also provides functions for various partitioning methodologies.</li>
+			    <li><strong>Model-based clustering:</strong> <pkg>mclust</pkg> and <pkg>flexmix</pkg> provide implementations of 
+			    model-based cluster analysis.</li>
+	    	</ul>
+	    The <view>Cluster</view> task view provides a more detailed discussion of available cluster analysis methods and appropriate 
+	    R functions and packages.</li>
+	    <li><em>Models related to ecological theory</em>: <pkg>untb</pkg> provides a collection of utilities for biodiversity data, 
+	    including the simulation ecological drift under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various 
+	    diagnostics such as Preston curves. <pkg>vegan</pkg> provides a wide range of functions related to ecological theory, including 
+	    diversity indices (including the <q>so-called</q>Hill's numbers [e.g. Hill's N<sup>2</sup>] and rarefaction), ranked abundance 
+	    diagrams, Fisher's log series, Broken Stick model, Hubbell's abundance model, amongst others.</li>
+	    <li><em>Spatial models</em>: See the <view>Spatial</view> CRAN Task View  for an overview of spatial analysis in R.</li>
+	    <li><em>Extreme value theory</em>: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, <pkg>evir</pkg>, 
+	    <pkg>extRemes</pkg> and <pkg>ismev</pkg> provide functions for models for extreme value statistics. <pkg>ismev</pkg> is support 
+	    software for &quot;An Introduction to Statistical Modelling of Extreme Values&quot; (Coles S. 2001).</li>
+	    <li><em>Phylogenetics and evolution</em>: Packages <pkg>ape</pkg>, <pkg>ouch</pkg> <pkg>PHYLOGR</pkg> 
+	    provide functions or the analysis of phylogenetic and evolutionary data.</li>
+			<li><em>Other</em>: 
+      	<ul>
+      		<li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
+      		selection by animals.</li>
+      		<li>Andrew Robinsons's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
+      		tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package contains
+      		functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalance.</li>
+      		<li>Thomas Petzoldt's <pkg>simecol</pkg> package provides an object oriented framework and tools to simulate 
+      		ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
+      		<a href="http://cran.r-project.org/doc/Rnews">R News</a> <a href="http://cran.r-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> 
+      		on the package for further information.</li>
+      		<li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
+      		<li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
+      		<li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
+      		support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
+      		<li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
+      		<li>Package <pkg>NADA</pkg> contains methods described by Dennis R. Helsel in his book <q>Nondetects And Data 
+      		Analysis: Statistics for Censored Environmental Data</q>.</li>
+      		<li>Package <pkg>grasper</pkg> implements Generalized Regression and Spatial Prediction (GRASP)for R using
+      		generalized regressions analyses to automate the production of spatial predictions.</li>
+      		<li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
+      		diagnostic plots.</li>
+  				<li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling of monthly 
+  				mean and daily mean global climate scenarios.</li>
+  				<li>Package <pkg>SoPhy</pkg> provides soil physics tools in R including water flow by SWMS_2D.</li>
+  				<li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
+  			</ul>
+  		</li>
+  	</ul>
+	</info>
+	<packagelist>
+	  <pkg priority="core">vegan</pkg>
+	  <pkg priority="core">mgcv</pkg>
+	  <pkg>VR</pkg>
+	  <pkg priority="core">ade4</pkg>
+	  <pkg>adehabitat</pkg>
+	  <pkg>gam</pkg>
+	  <pkg>grasper</pkg>
+	  <pkg>tseries</pkg>
+	  <pkg>zoo</pkg>
+	  <pkg>its</pkg>
+	  <pkg>pastecs</pkg>
+	  <pkg priority="core">labdsv</pkg>
+	  <pkg>ecodist</pkg>
+	  <pkg priority="core">mvpart</pkg>
+	  <pkg>rpart</pkg>
+	  <pkg>rpart.permutation</pkg>
+	  <pkg>randomForest</pkg>
+	  <pkg>maptree</pkg>
+	  <pkg>pinktoe</pkg>
+	  <pkg>pcurve</pkg>
+	  <pkg>clim.pact</pkg>
+	  <pkg priority="core">cluster</pkg>
+	  <pkg>amap</pkg>
+	  <pkg>e1071</pkg>
+	  <pkg>mclust</pkg>
+	  <pkg>evd</pkg>
+	  <pkg>evdbayes</pkg>
+	  <pkg>evir</pkg>
+	  <pkg>ismev</pkg>
+	  <pkg>extRemes</pkg>
+	  <pkg>NADA</pkg>
+	  <pkg>SoPhy</pkg>
+	  <pkg>clim.pact</pkg>
+	  <pkg>ape</pkg>
+	  <pkg>ouch</pkg>
+	  <pkg>PHYLOGR</pkg>
+	  <pkg>seacarb</pkg>
+	  <pkg>CircStats</pkg>
+	  <pkg>circular</pkg>
+	  <pkg>eco</pkg>
+	  <pkg>equivalence</pkg>
+	  <pkg>simecol</pkg>
+	  <pkg>ecodist</pkg>
+	</packagelist>
+	<links>
+    <view>Spatial</view>
+    <view>Multivariate</view>
+    <view>Cluster</view>
+    <a href="http://cc.oulu.fi/~jarioksa/softhelp/vegan.html">Jari Oksanen's vegan pages</a>
+    <a href="http://ecology.msu.montana.edu/labdsv/">Dave Roberts' LabDSV pages</a>
+    <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
+    <a href="http://www.stat.auckland.ac.nz/showperson?firstname=Brian&amp;surname=McArdle">Brian McArdle's MultivEcol 
+    package for R.</a>
+    <a href="http://www.brodgar.com/">Brodgar</a>
+    <a href="http://pbil.univ-lyon1.fr/ADE-4/">More information on the ade4 package can be found on the ADE4 website</a>
+    <a href="http://ordination.okstate.edu/">Mike Palmer's Ordination web site</a>
+    <a href="http://www.maths.lancs.ac.uk/~stephena/software.html">Alec Stephenson's summary and description of software for 
+    extreme value theory in R/S-Plus</a>
+    <a href="http://www.zoo.ufl.edu/bolker/R/">R packages written by Ben Bolker</a>
+    <a href="http://www.tu-dresden.de/fghhihb/petzoldt/zeugs.html">Thomas Petzoldt's page about ecological modelling with R.</a>
+    <a href="http://www.flr-project.org/doku.php">The FLR project web page for Fisheries Science in R.</a>
+	</links>
+</CRANTaskView>
