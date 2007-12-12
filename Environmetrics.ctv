@@ -107,7 +107,7 @@
             data.</li>
             <li>Coinertia analysis is available via <tt>coinertia()</tt> and <tt>mcoa()</tt>, both in <pkg>ade4</pkg>.</li>
             <li>Co-correspondence analysis to relate two ecological species data matrices is available in <pkg>cocorresp</pkg>.</li>
-            <li>Canonical Correlation Analysis (CCoA &mdash; not to be confused with CCA, above) is available in <tt>cancor()</tt> 
+            <li>Canonical Correlation Analysis (CCoA - not to be confused with CCA, above) is available in <tt>cancor()</tt> 
             in standard package stats.</li>
             <li>Procrustes rotation is available in <tt>procrustes()</tt> in <pkg>vegan</pkg> and <tt>procuste()</tt> in 
             <pkg>ade4</pkg>, with both <pkg>vegan</pkg> and <pkg>ade4</pkg> providing functions to test the significance of 
