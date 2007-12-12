@@ -37,8 +37,8 @@
 	        automatic smoothness selection via generalised cross-validation. The author of <pkg>mgcv</pkg> has
 	        also written a companion monograph, Wood (2006) <em>Generalized Additive Models; An Introduction with R</em>
 	        Chapman Hall/CRC, which has an accompanying package <pkg>gamair</pkg>.</li>
-	        <li>Alternatively, package <pkg>gam</pkg> provides an implementation of the S-PLUS function <tt>gam()</tt>,
-	        including LOESS smooths.</li>
+	        <li>Alternatively, package <pkg>gam</pkg> provides an implementation of the S-PLUS function <tt>gam()</tt> that 
+	        includes LOESS smooths.</li>
 	        <li>Proportional odds models for ordinal responses can be fitted using <tt>polr()</tt> in the MASS package,
 	        part of the <pkg>VR</pkg> bundle, of Bill Venables and Brian Ripley.</li>
 	        <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
