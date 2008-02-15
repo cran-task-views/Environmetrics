@@ -1,7 +1,9 @@
 <CRANTaskView>
 	<name>Environmetrics</name>
-	<topic>Analysis of ecological and environmental data</topic>
-	<maintainer>Gavin Simpson</maintainer>
+	<topic>Analysis of Ecological and Environmental Data</topic>
+	<maintainer email="Gavin.Simpson@ucl.ac.uk">Gavin Simpson</maintainer>
+	<version>2007-12-12</version>
+	
 	<info>
 	    <h4>Introduction</h4>
 	    <p>This Task View contains information about using R to analyse ecological and environmental data.</p>
@@ -9,7 +11,7 @@
 	    This functionality is complemented by a plethora of packages available via CRAN, which provide specialist
 	    methods such as ordination &amp; cluster analysistechniques. A brief overview of the available packages is 
 	    provided in this Task View, grouped by topic or type of analysis. As a testament to the popularity of R for the 
-	    analysis of environmental and ecological data, a <a href="http://www.jstatsoft.org/v22" >special volume</a> of 
+	    analysis of environmental and ecological data, a <a href="http://www.jstatsoft.org/v22/" >special volume</a> of 
 	    the <em>Journal of Statistical Software</em> was produced in 2007.</p>
 	    <p>Those useRs interested in environmetrics should consult the <view>Spatial</view> view. 
 	    Complementary information is also available in the <view>Multivariate</view> and <view>Cluster</view> task
