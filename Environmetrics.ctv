@@ -195,7 +195,7 @@
             and multivariate time series analysis.</li>
             <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
             <li>Irregular time series can be handled using packages <pkg>zoo</pkg> and <pkg>its</pkg>, as well as by
-            <tt>itrs()</tt> in package <pkg>tseries</pkg>.</li>
+            <tt>irts()</tt> in package <pkg>tseries</pkg>.</li>
             <li><pkg>pastecs</pkg> provides functions specifically tailored for the analysis of space-time ecological series.</li>
             <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
             relationships.</li>
