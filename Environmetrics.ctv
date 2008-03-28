@@ -63,7 +63,7 @@
 	    <p>Multivariate trees are available in</p>
 	    <ul>
 	        <li>package <pkg>mvpart</pkg>, which provides an adaptation of <pkg>rpart</pkg> for multivariate responses.</li>
-	        <li>package <pgk>party</pgk> can also handle multivariate responses.</li>
+	        <li>package <pkg>party</pkg> can also handle multivariate responses.</li>
 	    </ul>
 	    <p>Ensemble techniques for trees:</p>
 	    <ul>
