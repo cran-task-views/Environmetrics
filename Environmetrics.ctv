@@ -45,6 +45,8 @@
 	        part of the <pkg>VR</pkg> bundle, of Bill Venables and Brian Ripley.</li>
 	        <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
 	        the <pkg>VR</pkg> bundle.</li>
+	        <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
+	        negative binomial distributions are provided for both zero-inflated and hurdel models.</li>
 	    </ul>
 
 	    <h4>Tree-based models</h4>
@@ -132,6 +134,7 @@
 	    <p>Standard functions that produce, square, symmetric matrices of pair-wise dissimilarities include:</p>
 	    <ul>
 	        <li><tt>dist()</tt> in standard package stats</li>
+	        <li><tt>daisy()</tt> in recommended package <pkg>cluster</pkg></li>
 	        <li><tt>vegdist()</tt> in <pkg>vegan</pkg></li>
 	        <li><tt>dsvdis()</tt> in <pkg>labdsv</pkg></li>
 	        <li><tt>Dist()</tt> in <pkg>amap</pkg></li>
@@ -141,7 +144,9 @@
 	    <p>Function <tt>distance()</tt> in package <pkg>analogue</pkg> can be used to calculate dissimilarity between samples 
 	    of one matrix and those of a second matrix. The same function can be used to produce pair-wise dissimilarity matrices,
 	    though the other functions listed above are faster. <tt>distance()</tt> can also be used to generate
-	    matrices based on Gower's coefficient for mixed data (mixtures of binary, ordinal/nominal and continuous variables).</p>
+	    matrices based on Gower's coefficient for mixed data (mixtures of binary, ordinal/nominal and continuous variables).
+	    Function <tt>daisy()</tt> in package <pkg>cluster</pkg> provides a faster implementation of Gower's coefficient for
+	    mixed-mode data than <tt>distance()</tt> if a standard dissimilarity matrix is required.</p>
 	    
 	    <h4>Cluster analysis</h4>
 	    <p>Cluster analysis aims to identify groups of samples within multivariate data sets. A large range of 
@@ -187,7 +192,7 @@
 	    <!-- <p>INTRODUCTION</p> -->
 	    <ul>
 	        <li>Time series objects in R are created using the <tt>ts()</tt> function, though see <pkg>tseries</pkg>,
-	        <pkg>zoo</pkg> and <pkg>its></pkg> below for alternatives.</li>
+	        <pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
 	        <li>Classical time series functionality is provided by the <tt>ar()</tt>, and <tt>arima()</tt> functions in 
 	        standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
 	        integrated ARMA (ARIMA) models.</li>
@@ -286,14 +291,17 @@
         <pkg>extRemes</pkg>
         <pkg>fso</pkg>
         <pkg>gam</pkg>
+        <pkg>gamair</pkg>
         <pkg>ismev</pkg>
         <pkg>its</pkg>
         <pkg priority="core">labdsv</pkg>
+        <pkg>lme4</pkg>
         <pkg>maptree</pkg>
         <pkg>mclust</pkg>
         <pkg priority="core">mgcv</pkg>
         <pkg priority="core">mvpart</pkg>
         <pkg>NADA</pkg>
+        <pkg>nlme</pkg>
         <pkg>ouch</pkg>
         <pkg>party</pkg>
         <pkg>pastecs</pkg>
@@ -301,6 +309,7 @@
         <pkg>pgirmess</pkg>
         <pkg>PHYLOGR</pkg>
         <pkg>pinktoe</pkg>
+        <pkg>pscl</pkg>
         <pkg>randomForest</pkg>
         <pkg>rpart</pkg>
         <pkg>rpart.permutation</pkg>
