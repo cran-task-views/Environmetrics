@@ -273,6 +273,7 @@
         <pkg priority="core">ade4</pkg>
         <pkg>adehabitat</pkg>
         <pkg>amap</pkg>
+        <pkg>analogue</pkg>
         <pkg>ape</pkg>
         <pkg>dyn</pkg>
         <pkg>dynlm</pkg>
@@ -281,6 +282,7 @@
         <pkg>circular</pkg>
         <pkg>clim.pact</pkg>
         <pkg priority="core">cluster</pkg>
+        <pkg>cocorresp</pkg>
         <pkg>e1071</pkg>
         <pkg>eco</pkg>
         <pkg>ecodist</pkg>
