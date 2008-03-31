@@ -174,6 +174,11 @@
 	    <p>Mixture models and model-based cluster analysis:</p>
 	    <ul>
             <li><pkg>mclust</pkg> and <pkg>flexmix</pkg> provide implementations of model-based cluster analysis.</li>
+            <li><pkg>prabclus</pkg> clusters a species presence-absence matrix object by calculating an 
+            <acronym title="Multi-dimensional Scaling">MDS</acronym> from the distances, and applying maximum likelihood Gaussian 
+            mixtures clustering to the MDS points. The maintainer's, Christian Hennig, web site contains several publications in 
+            ecological contexts that use <pkg>prabclus</pkg>, especially Hausdorf &amp; Hennig (2007; 
+            <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.0030-1299.2007.15661.x">Oikos 116 (2007), 818-828</a>).</li>
 	    </ul>
 	    
 	    <h4>Models related to ecological theory</h4>
@@ -267,6 +272,9 @@
             mean and daily mean global climate scenarios.</li>
             <li>Package <pkg>SoPhy</pkg> provides soil physics tools in R including water flow by SWMS_2D.</li>
             <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
+	        <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and biogeography.</li>
+	        <li><pkg>analogue</pkg> fits Modern Analogue Technique transfer function models for prediction of environmental data from species
+	        data, and also performs analogue matching, a related technique used in palaeo ecological restoration.</li>
 	    </ul>
 	</info>
 	<packagelist>
@@ -300,6 +308,7 @@
         <pkg>lme4</pkg>
         <pkg>maptree</pkg>
         <pkg>mclust</pkg>
+        <pkg>mefa</pkg>
         <pkg priority="core">mgcv</pkg>
         <pkg priority="core">mvpart</pkg>
         <pkg>NADA</pkg>
@@ -312,6 +321,7 @@
         <pkg>PHYLOGR</pkg>
         <pkg>pinktoe</pkg>
         <pkg>pscl</pkg>
+        <pkg>prabclus</pkg>
         <pkg>randomForest</pkg>
         <pkg>rpart</pkg>
         <pkg>rpart.permutation</pkg>
