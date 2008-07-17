@@ -46,7 +46,7 @@
 	        <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
 	        the <pkg>VR</pkg> bundle.</li>
 	        <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
-	        negative binomial distributions are provided for both zero-inflated and hurdel models.</li>
+	        negative binomial distributions are provided for both zero-inflated and hurdle models.</li>
 	    </ul>
 
 	    <h4>Tree-based models</h4>
