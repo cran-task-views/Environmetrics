@@ -3,7 +3,7 @@
 	<topic>Analysis of Ecological and Environmental Data</topic>
 	<maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
 	<version>2008-08-28</version>
-	
+
 	<info>
 	    <h4>Introduction</h4>
 	    <p>This Task View contains information about using R to analyse ecological and environmental data.</p>
@@ -191,10 +191,10 @@
 	        under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	        curves.</li>
 	        <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
-	        <!-- 	        <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in Koleff et al (2003;
+	        <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in Koleff et al (2003;
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of Animal Ecology 72(3), 367-382</a>).
 	        <code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots of the type
-	        found in Koleff et al (2003).</li> -->
+	        found in Koleff et al (2003).</li>
 	        <li>Funtion <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
 	        multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 2006; 
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 245-253</a>). Anderson et al
