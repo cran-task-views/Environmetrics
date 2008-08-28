@@ -26,7 +26,7 @@
 	    (e.g. Generalised Least Squares [GLS]), Generalised Additive Models (GAM), and mixed effects models, amongst 
 	    others.</p>
 	    <ul>
-	        <li>The base installation of R provides <tt>lm()</tt> and <tt>glm()</tt> for fitting linear and generalised
+	        <li>The base installation of R provides <code>lm()</code> and <code>glm()</code> for fitting linear and generalised
 	        linear models, respectively.</li>
 	        <li>Generalised least squares and linear and non-linear mixed effects models extend the simple regression model
 	        to account for clustering, heterogeneity and correlations within the sample of observations. Package <pkg>nlme</pkg>
@@ -39,9 +39,9 @@
 	        automatic smoothness selection via generalised cross-validation. The author of <pkg>mgcv</pkg> has
 	        also written a companion monograph, Wood (2006) <em>Generalized Additive Models; An Introduction with R</em>
 	        Chapman Hall/CRC, which has an accompanying package <pkg>gamair</pkg>.</li>
-	        <li>Alternatively, package <pkg>gam</pkg> provides an implementation of the S-PLUS function <tt>gam()</tt> that 
+	        <li>Alternatively, package <pkg>gam</pkg> provides an implementation of the S-PLUS function <code>gam()</code> that 
 	        includes LOESS smooths.</li>
-	        <li>Proportional odds models for ordinal responses can be fitted using <tt>polr()</tt> in the MASS package,
+	        <li>Proportional odds models for ordinal responses can be fitted using <code>polr()</code> in the MASS package,
 	        part of the <pkg>VR</pkg> bundle, of Bill Venables and Brian Ripley.</li>
 	        <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
 	        the <pkg>VR</pkg> bundle.</li>
@@ -88,34 +88,34 @@
 	    two packages provide duplicate functionality, the user should choose whichever framework that best suits their 
 	    background.</p>
 	    <ul>
-	        <li>Principal Components (PCA) is available via the <tt>prcomp()</tt> function. <tt>rda()</tt> (in package 
-	        <pkg>vegan</pkg>), <tt>pca()</tt> (in package <pkg>labdsv</pkg>) and <tt>dudi.pca</tt> (in
+	        <li>Principal Components (PCA) is available via the <code>prcomp()</code> function. <code>rda()</code> (in package 
+	        <pkg>vegan</pkg>), <code>pca()</code> (in package <pkg>labdsv</pkg>) and <code>dudi.pca()</code> (in
 	        package <pkg>ade4</pkg>), provide more ecologically-orientated implementations. A form of PCA used 
 	        in the climate and climate change fields is Empirical Orthogonal Function (EOF) analysis and is implemented
-	        in <tt>EOF()</tt> in package <pkg>clim.pact</pkg>.</li>
-	        <li>Redundancy Analysis (RDA) is available via <tt>rda()</tt> in <pkg>vegan</pkg> and <tt>pcaiv()</tt> in 
+	        in <code>EOF()</code> in package <pkg>clim.pact</pkg>.</li>
+	        <li>Redundancy Analysis (RDA) is available via <code>rda()</code> in <pkg>vegan</pkg> and <code>pcaiv()</code> in 
 	        <pkg>ade4</pkg>.</li>
-	        <li>Canonical Correspondence Analysis (CCA) is implemented in <tt>cca()</tt> in both <pkg>vegan</pkg> and
+	        <li>Canonical Correspondence Analysis (CCA) is implemented in <code>cca()</code> in both <pkg>vegan</pkg> and
 	        <pkg>ade4</pkg>.</li>
-            <li>Detrended Correspondence Analysis (DCA) is implemented in <tt>decorana()</tt> in <pkg>vegan</pkg>.</li> 
-            <li>Principal coordinates analysis (PCO) is implemented in <tt>dudi.pco</tt> in <pkg>ade4</pkg>, <tt>pco()</tt>
-            in <pkg>labdsv</pkg>, <tt>pco()</tt> in <pkg>ecodist</pkg>, and <tt>cmdscale()</tt> in package MASS in 
+            <li>Detrended Correspondence Analysis (DCA) is implemented in <code>decorana()</code> in <pkg>vegan</pkg>.</li> 
+            <li>Principal coordinates analysis (PCO) is implemented in <code>dudi.pco()</code> in <pkg>ade4</pkg>, <code>pco()</code>
+            in <pkg>labdsv</pkg>, <code>pco()</code> in <pkg>ecodist</pkg>, and <code>cmdscale()</code> in package MASS in 
             <pkg>VR</pkg>.</li>
-            <li>Non-Metric multi-Dimensional Scaling (NMDS) is provided by <tt>isoMDS()</tt> in package MASS in bundle 
-            <pkg>VR</pkg> and <tt>nmds()</tt> in <pkg>ecodist</pkg>. <tt>nmds()</tt>, a wrapper function for <tt>isoMDS()</tt>, 
-            is also provided by package <pkg>labdsv</pkg>. <pkg>vegan</pkg> provides helper function <tt>metaMDS()</tt> for 
-            <tt>isoMDS()</tt>, implementing random starts of the algorithm and standardised scaling of the NMDS results. 
-            The approach adopted by <pkg>vegan</pkg> with <tt>metaMDS()</tt> is the recommended approach for ecological
+            <li>Non-Metric multi-Dimensional Scaling (NMDS) is provided by <code>isoMDS()</code> in package MASS in bundle 
+            <pkg>VR</pkg> and <code>nmds()</code> in <pkg>ecodist</pkg>. <code>nmds()</code>, a wrapper function for <code>isoMDS()</code>, 
+            is also provided by package <pkg>labdsv</pkg>. <pkg>vegan</pkg> provides helper function <code>metaMDS()</code> for 
+            <code>isoMDS()</code>, implementing random starts of the algorithm and standardised scaling of the NMDS results. 
+            The approach adopted by <pkg>vegan</pkg> with <code>metaMDS()</code> is the recommended approach for ecological
             data.</li>
-            <li>Coinertia analysis is available via <tt>coinertia()</tt> and <tt>mcoa()</tt>, both in <pkg>ade4</pkg>.</li>
+            <li>Coinertia analysis is available via <code>coinertia()</code> and <code>mcoa()</code>, both in <pkg>ade4</pkg>.</li>
             <li>Co-correspondence analysis to relate two ecological species data matrices is available in <pkg>cocorresp</pkg>.</li>
-            <li>Canonical Correlation Analysis (CCoA - not to be confused with CCA, above) is available in <tt>cancor()</tt> 
+            <li>Canonical Correlation Analysis (CCoA - not to be confused with CCA, above) is available in <code>cancor()</code> 
             in standard package stats.</li>
-            <li>Procrustes rotation is available in <tt>procrustes()</tt> in <pkg>vegan</pkg> and <tt>procuste()</tt> in 
+            <li>Procrustes rotation is available in <code>procrustes()</code> in <pkg>vegan</pkg> and <code>procuste()</code> in 
             <pkg>ade4</pkg>, with both <pkg>vegan</pkg> and <pkg>ade4</pkg> providing functions to test the significance of 
             the association between ordination configurations (as assessed by Procrustes rotation) using permutation/randomisation 
             and Monte Carlo methods.</li>
-            <li>Constrained Analysis of Principal Coordinates (CAP), implemented in <tt>capscale()</tt> in <pkg>vegan</pkg>,
+            <li>Constrained Analysis of Principal Coordinates (CAP), implemented in <code>capscale()</code> in <pkg>vegan</pkg>,
             fits constrained ordination models similar to RDA and CCA but with any any dissimilarity coefficient.</li>
             <li>Constrained Quadratic Ordination (CQO; formerly known as Canonical Gaussian Ordination (CGO)) is a maximum likelihood 
             estimation alternative to CCA fit by Quadratic Reduced Rank Vector GLMs. Constrained Additive Ordination (CAO) is a 
@@ -133,20 +133,20 @@
 	    the more useful coefficients are available in R and various contributed packages.</p>
 	    <p>Standard functions that produce, square, symmetric matrices of pair-wise dissimilarities include:</p>
 	    <ul>
-	        <li><tt>dist()</tt> in standard package stats</li>
-	        <li><tt>daisy()</tt> in recommended package <pkg>cluster</pkg></li>
-	        <li><tt>vegdist()</tt> in <pkg>vegan</pkg></li>
-	        <li><tt>dsvdis()</tt> in <pkg>labdsv</pkg></li>
-	        <li><tt>Dist()</tt> in <pkg>amap</pkg></li>
-	        <li><tt>distance</tt> in <pkg>ecodist</pkg></li>
+	        <li><code>dist()</code> in standard package stats</li>
+	        <li><code>daisy()</code> in recommended package <pkg>cluster</pkg></li>
+	        <li><code>vegdist()</code> in <pkg>vegan</pkg></li>
+	        <li><code>dsvdis()</code> in <pkg>labdsv</pkg></li>
+	        <li><code>Dist()</code> in <pkg>amap</pkg></li>
+	        <li><code>distance()</code> in <pkg>ecodist</pkg></li>
 	        <li>a suite of functions in <pkg>ade4</pkg></li>
 	    </ul>
-	    <p>Function <tt>distance()</tt> in package <pkg>analogue</pkg> can be used to calculate dissimilarity between samples 
+	    <p>Function <code>distance()</code> in package <pkg>analogue</pkg> can be used to calculate dissimilarity between samples 
 	    of one matrix and those of a second matrix. The same function can be used to produce pair-wise dissimilarity matrices,
-	    though the other functions listed above are faster. <tt>distance()</tt> can also be used to generate
+	    though the other functions listed above are faster. <code>distance()</code> can also be used to generate
 	    matrices based on Gower's coefficient for mixed data (mixtures of binary, ordinal/nominal and continuous variables).
-	    Function <tt>daisy()</tt> in package <pkg>cluster</pkg> provides a faster implementation of Gower's coefficient for
-	    mixed-mode data than <tt>distance()</tt> if a standard dissimilarity matrix is required.</p>
+	    Function <code>daisy()</code> in package <pkg>cluster</pkg> provides a faster implementation of Gower's coefficient for
+	    mixed-mode data than <code>distance()</code> if a standard dissimilarity matrix is required.</p>
 	    
 	    <h4>Cluster analysis</h4>
 	    <p>Cluster analysis aims to identify groups of samples within multivariate data sets. A large range of 
@@ -157,18 +157,18 @@
 	    appropriate R functions and packages.</p>
 	    <p>Hierarchical cluster analysis:</p>
 	    <ul>
-            <li><tt>hclust()</tt> in standard package stats</li>
+            <li><code>hclust()</code> in standard package stats</li>
             <li>Recommended package <pkg>cluster</pkg> provides functions for cluster analysis following the methods 
             described in Kaufman and Rousseeuw (1990) <em>Finding Groups in data: an introduction to cluster analysis</em>,
             Wiley, New York</li>
-            <li><tt>hcluster()</tt> in <pkg>amap</pkg></li>
+            <li><code>hcluster()</code> in <pkg>amap</pkg></li>
             <li><pkg>pvclust</pkg> is a package for assessing the uncertainty in hierarchical cluster analysis. It provides 
             approximately unbiased <em>p</em>-values as well as bootstrap <em>p</em>-values.</li>
 	    </ul>
 	    <p>Partitioning methods:</p>
 	    <ul>
-            <li><tt>kmeans()</tt> in stats provides <em>k</em>-means clustering</li>
-            <li><tt>cmeans()</tt> in <pkg>e1071</pkg> implements a fuzzy version of the <em>k</em>-means algorithm</li>
+            <li><code>kmeans()</code> in stats provides <em>k</em>-means clustering</li>
+            <li><code>cmeans()</code> in <pkg>e1071</pkg> implements a fuzzy version of the <em>k</em>-means algorithm</li>
             <li>Recommended package <pkg>cluster</pkg> also provides functions for various partitioning methodologies.</li>
 	    </ul>
 	    <p>Mixture models and model-based cluster analysis:</p>
@@ -191,11 +191,11 @@
 	        under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	        curves.</li>
 	        <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
-	        <!-- 	        <li>Function <tt>betadiver()</tt> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in Koleff et al (2003;
+	        <!-- 	        <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in Koleff et al (2003;
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of Animal Ecology 72(3), 367-382</a>).
-	        <tt>betadiver()</tt> also provides a <tt>plot</tt> method to produce the co-occurrence frequency triangle plots of the type
+	        <code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots of the type
 	        found in Koleff et al (2003).</li> -->
-	        <li>Funtion <tt>betadisper()</tt>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
+	        <li>Funtion <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
 	        multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 2006; 
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 245-253</a>). Anderson et al
 	        (2006; <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
@@ -205,25 +205,25 @@
 	    <h4>Environmental time series</h4>
 	    <!-- <p>INTRODUCTION</p> -->
 	    <ul>
-	        <li>Time series objects in R are created using the <tt>ts()</tt> function, though see <pkg>tseries</pkg>,
+	        <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg>,
 	        <pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
-	        <li>Classical time series functionality is provided by the <tt>ar()</tt>, and <tt>arima()</tt> functions in 
+	        <li>Classical time series functionality is provided by the <code>ar()</code>, and <code>arima()</code> functions in 
 	        standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
 	        integrated ARMA (ARIMA) models.</li>
             <li>The dse1 and dse2 packages in the <pkg>dse</pkg> bundle provide a variety of more advanced estimation methods 
             and multivariate time series analysis.</li>
             <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
             <li>Irregular time series can be handled using packages <pkg>zoo</pkg> and <pkg>its</pkg>, as well as by
-            <tt>irts()</tt> in package <pkg>tseries</pkg>.</li>
+            <code>irts()</code> in package <pkg>tseries</pkg>.</li>
             <li><pkg>pastecs</pkg> provides functions specifically tailored for the analysis of space-time ecological series.</li>
             <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
             relationships.</li>
             <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
             squares</li>
             <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dyn</pkg>, which allows time series data to 
-            be used with any regression function written in the style of lm such as <tt>lm()</tt>, <tt>glm()</tt>, <tt>loess()</tt>,
-			<tt>rlm()</tt> and <tt>lqs()</tt> from the MASS package in the <pkg>VR</pkg> bundle, <tt>randomForest()</tt> (package
-			<pkg>randomForest</pkg>), <tt>rq()</tt> (package <pkg>quantreg</pkg>) amongst others, whilst preserving the time series
+            be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, <code>loess()</code>,
+			<code>rlm()</code> and <code>lqs()</code> from the MASS package in the <pkg>VR</pkg> bundle, <code>randomForest()</code> (package
+			<pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst others, whilst preserving the time series
 			information.</li>
 	    </ul>
 	    
