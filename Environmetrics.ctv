@@ -9,7 +9,7 @@
 	    <p>This Task View contains information about using R to analyse ecological and environmental data.</p>
 	    <p>The base version of R ships with a wide range of functions for use within the field of environmetrics.
 	    This functionality is complemented by a plethora of packages available via CRAN, which provide specialist
-	    methods such as ordination &amp; cluster analysistechniques. A brief overview of the available packages is 
+	    methods such as ordination &amp; cluster analysis techniques. A brief overview of the available packages is 
 	    provided in this Task View, grouped by topic or type of analysis. As a testament to the popularity of R for the 
 	    analysis of environmental and ecological data, a <a href="http://www.jstatsoft.org/v22/" >special volume</a> of 
 	    the <em>Journal of Statistical Software</em> was produced in 2007.</p>
@@ -123,7 +123,7 @@
             fits constrained ordination models similar to RDA and CCA but with any any dissimilarity coefficient.</li>
             <li>Constrained Quadratic Ordination (CQO; formerly known as Canonical Gaussian Ordination (CGO)) is a maximum likelihood 
             estimation alternative to CCA fit by Quadratic Reduced Rank Vector GLMs. Constrained Additive Ordination (CAO) is a 
-            flexible alternative to CQO which uses Quafratic Reduced Rank Vector GAMs. These methods and more are provided in 
+            flexible alternative to CQO which uses Quadratic Reduced Rank Vector GAMs. These methods and more are provided in 
             Thomas Yee's <pkg>VGAM</pkg> package.</li>
             <li>Fuzzy set ordination (FSO), an alternative to CCA/RDA and CAP, is available in package <pkg>fso</pkg>. <pkg>fso</pkg>
             complements a recent paper on fuzzy sets in the journal <em>Ecology</em> by Dave Roberts (2008, Statistical analysis of 
@@ -199,7 +199,7 @@
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of Animal Ecology 72(3), 367-382</a>).
 	        <code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots of the type
 	        found in Koleff et al (2003).</li>
-	        <li>Funtion <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
+	        <li>Function <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
 	        multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 2006; 
 	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 245-253</a>). Anderson et al
 	        (2006; <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
@@ -222,6 +222,7 @@
             <li><pkg>pastecs</pkg> provides functions specifically tailored for the analysis of space-time ecological series.</li>
             <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
             relationships.</li>
+			<li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
             <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
             squares</li>
             <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dyn</pkg>, which allows time series data to 
@@ -229,7 +230,6 @@
 			<code>rlm()</code> and <code>lqs()</code> from the MASS package in the <pkg>VR</pkg> bundle, <code>randomForest()</code> (package
 			<pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst others, whilst preserving the time series
 			information.</li>
-			<li>Detecting change points in time series data --- see <pkg>segmented</pkg> and <pkg>strucchange</pkg> <a href="#changepoints">above</a>.</li>
 	    </ul>
 	    
 	    <h4>Spatial data analysis</h4>
