@@ -47,6 +47,10 @@
 	        the <pkg>VR</pkg> bundle.</li>
 	        <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
 	        negative binomial distributions are provided for both zero-inflated and hurdle models.</li>
+	        <li id="changepoints">Detecting change points and structural changes in parametric models is well catered for in the 
+	        <pkg>segmented</pkg> package and the <pkg>strucchange</pkg> package respectively. <pkg>segmented</pkg> has recently been 
+	        the subject of an R News article (<a href="http://cran.r-project.org/doc/Rnews/Rnews_2008-1.pdf" 
+	        title="Link to segment article in R News">R News, volume 8 issue 1</a>).</li>
 	    </ul>
 
 	    <h4>Tree-based models</h4>
@@ -225,6 +229,7 @@
 			<code>rlm()</code> and <code>lqs()</code> from the MASS package in the <pkg>VR</pkg> bundle, <code>randomForest()</code> (package
 			<pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst others, whilst preserving the time series
 			information.</li>
+			<li>Detecting change points in time series data --- see <pkg>segmented</pkg> and <pkg>strucchange</pkg> <a href="#changepoints">above</a>.</li>
 	    </ul>
 	    
 	    <h4>Spatial data analysis</h4>
@@ -336,9 +341,11 @@
         <pkg>randomForest</pkg>
         <pkg>rpart</pkg>
         <pkg>seacarb</pkg>
+        <pkg>segmented</pkg>
         <pkg>simecol</pkg>
         <pkg>SoPhy</pkg>
         <pkg>StreamMetabolism</pkg>
+        <pkg>strucchange</pkg>
         <pkg>tseries</pkg>
         <pkg priority="core">vegan</pkg>
         <pkg>VGAM</pkg>
