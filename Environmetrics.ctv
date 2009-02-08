@@ -246,7 +246,7 @@
 	        <li><pkg>evd</pkg></li>
 	        <li><pkg>evdbayes</pkg>, which provides a Bayesian approach to extreme value theory</li>
 	        <li><pkg>extRemes</pkg></li>
-	        <li><pk>POT</pk>, which provides functions for the Generalized Pareto Distribution and the Peaks Over Threshold 
+	        <li><pkg>POT</pkg>, which provides functions for the Generalized Pareto Distribution and the Peaks Over Threshold 
 	        method</li>
 	    </ul>
 	    
@@ -336,6 +336,7 @@
         <pkg>pgirmess</pkg>
         <pkg>PHYLOGR</pkg>
         <pkg>pinktoe</pkg>
+	<pkg>POT</pkg>
         <pkg>pscl</pkg>
         <pkg>prabclus</pkg>
         <pkg>randomForest</pkg>
