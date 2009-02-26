@@ -1,4 +1,4 @@
-<CRANTaskView>
+<CRANTaskView> <!-- emacs, please treat me as -*- html -*- -->
 	<name>Environmetrics</name>
 	<topic>Analysis of Ecological and Environmental Data</topic>
 	<maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
@@ -225,7 +225,7 @@
 			<li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
             <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
             squares</li>
-            <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dyn</pkg>, which allows time series data to 
+            <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
             be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, <code>loess()</code>,
 			<code>rlm()</code> and <code>lqs()</code> from the MASS package in the <pkg>VR</pkg> bundle, <code>randomForest()</code> (package
 			<pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst others, whilst preserving the time series
