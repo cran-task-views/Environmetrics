@@ -45,8 +45,14 @@
 	        part of the <pkg>VR</pkg> bundle, of Bill Venables and Brian Ripley.</li>
 	        <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
 	        the <pkg>VR</pkg> bundle.</li>
-	        <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
-	        negative binomial distributions are provided for both zero-inflated and hurdle models.</li>
+		<li>Models for overdispersed counts and proportions
+		  <ul>
+	            <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
+	              negative binomial distributions are provided for both zero-inflated and hurdle models.</li>
+		    <li><pkg>aod</pkg> provides a suite of functions to analyse overdispersed counts or proportions, plus utility 
+		      functions to calculate e.g. AIC, AICc, Akiake weights.</li>
+		  </ul>
+		</li>
 	        <li id="changepoints">Detecting change points and structural changes in parametric models is well catered for in the 
 	        <pkg>segmented</pkg> package and the <pkg>strucchange</pkg> package respectively. <pkg>segmented</pkg> has recently been 
 	        the subject of an R News article (<a href="http://cran.r-project.org/doc/Rnews/Rnews_2008-1.pdf" 
@@ -185,25 +191,32 @@
             <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.0030-1299.2007.15661.x">Oikos 116 (2007), 818-828</a>).</li>
 	    </ul>
 	    
-	    <h4>Models related to ecological theory</h4>
-	    <!-- <p></p> -->
+	    <h4>Ecological theory</h4>
+	    <p>There is a growing number of packages and books that focus on the use of R for theoretical ecological models.</p>
 	    <ul>
-	        <li><pkg>vegan</pkg> provides a wide range of functions related to ecological theory, such as diversity indices 
+	      <li><pkg>vegan</pkg> provides a wide range of functions related to ecological theory, such as diversity indices 
 	        (including the <q>so-called</q>Hill's numbers [e.g. Hill's N<sup>2</sup>] and rarefaction), ranked abundance diagrams, 
 	        Fisher's log series, Broken Stick model, Hubbell's abundance model, amongst others.</li>
-	        <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
+	      <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
 	        under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	        curves.</li>
-	        <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
-	        <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in Koleff et al (2003;
-	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of Animal Ecology 72(3), 367-382</a>).
-	        <code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots of the type
-	        found in Koleff et al (2003).</li>
-	        <li>Function <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for homogeneity of 
-	        multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 2006; 
-	        <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 245-253</a>). Anderson et al
-	        (2006; <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
-	        demonstrate the use of this approach for measuring beta diversity.</li>
+	      <li><pkg>primer</pkg> is a support software for Stevens 
+		(<a href="http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0">2009, <em>A Primer of Ecology with R</em>, 
+		    Springer</a>). The package provides a variety of functions for modeling ecological data and basic theoretical ecology, 
+		including functions related to demographic matrix models, metapopulation and source-sink models, host-parasitoid and 
+		disease models, multiple basins of attraction, the storage effect, neutral theory, and diversity partitioning.</li>
+	      <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
+	      <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in 
+		  Koleff et al (2003; <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of 
+		  Animal Ecology 72(3), 367-382</a>).
+	        <code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots 
+		of the type found in Koleff et al (2003).</li>
+	      <li>Function <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for 
+		  homogeneity of multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 
+		2006; <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 
+		  245-253</a>). Anderson et al (2006; 
+		<a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
+	          demonstrate the use of this approach for measuring beta diversity.</li>
 	    </ul>
 	    
 	    <h4>Environmental time series</h4>
@@ -259,7 +272,7 @@
 	        <li><pkg>PHYLOGR</pkg></li>
 	    </ul>
 	    <p>UseRs may also be interested in Paradis (2006) <em>Analysis of Phylogenetics and Evolution with R</em>, Springer, 
-	    New York, a book in the new UseR series from Springer.</p>
+	      New York, a book in the new UseR series from Springer.</p>
 	    
 	    <h4>Other packages</h4>
 	    <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
@@ -298,6 +311,7 @@
         <pkg>adehabitat</pkg>
         <pkg>amap</pkg>
         <pkg>analogue</pkg>
+	<pkg>aod</pkg>
         <pkg>ape</pkg>
         <pkg>dyn</pkg>
         <pkg>dynlm</pkg>
@@ -339,6 +353,7 @@
 	<pkg>POT</pkg>
         <pkg>pscl</pkg>
         <pkg>prabclus</pkg>
+	<pkg>primer</pkg>
         <pkg>randomForest</pkg>
         <pkg>rpart</pkg>
         <pkg>seacarb</pkg>
