@@ -50,7 +50,7 @@
 	            <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
 	              negative binomial distributions are provided for both zero-inflated and hurdle models.</li>
 		    <li><pkg>aod</pkg> provides a suite of functions to analyse overdispersed counts or proportions, plus utility 
-		      functions to calculate e.g. AIC, AICc, Akiake weights.</li>
+		      functions to calculate e.g. AIC, AICc, Akaike weights.</li>
 		  </ul>
 		</li>
 	        <li id="changepoints">Detecting change points and structural changes in parametric models is well catered for in the 
