@@ -2,7 +2,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2009-08-29</version>
+  <version>2009-09-02</version>
 
   <info>
     <h4>Introduction</h4>
@@ -198,8 +198,8 @@
 	(including the <q>so-called</q>Hill's numbers [e.g. Hill's N<sup>2</sup>] and rarefaction), ranked abundance diagrams, 
 	Fisher's log series, Broken Stick model, Hubbell's abundance model, amongst others.</li>
       <li>The <pkg>vegetarian</pkg> provides the diversity measures suggested by Jost 
-	(<a href="http://dx.doi.org/10.1111/j.2006.0030-1299.14714.x">2006, Oikos 113(2), 363-375</a>;, 
-	<a href="http://dx.doi.org/10.1890/06-1736.1">2009, Ecology 88(10), 2427-2439</a>).</li>
+	(<a href="http://dx.doi.org/10.1111/j.2006.0030-1299.14714.x">2006, Oikos 113(2), 363-375</a>; 
+	<a href="http://dx.doi.org/10.1890/06-1736.1">2007, Ecology 88(10), 2427-2439</a>).</li>
       <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
 	under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	curves.</li>
