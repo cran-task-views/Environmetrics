@@ -2,7 +2,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2009-09-02</version>
+  <version>2009-10-28</version>
 
   <info>
     <h4>Introduction</h4>
@@ -41,10 +41,9 @@
 	Chapman Hall/CRC, which has an accompanying package <pkg>gamair</pkg>.</li>
       <li>Alternatively, package <pkg>gam</pkg> provides an implementation of the S-PLUS function <code>gam()</code> that 
 	includes LOESS smooths.</li>
-      <li>Proportional odds models for ordinal responses can be fitted using <code>polr()</code> in the MASS package,
-	part of the <pkg>VR</pkg> bundle, of Bill Venables and Brian Ripley.</li>
-      <li>A negative binomial family for GLMs to model over-dispersion in count data is available in MASS, part of
-	the <pkg>VR</pkg> bundle.</li>
+      <li>Proportional odds models for ordinal responses can be fitted using <code>polr()</code> in the
+        <pkg>MASS</pkg> package, of Bill Venables and Brian Ripley.</li>
+      <li>A negative binomial family for GLMs to model over-dispersion in count data is available in <pkg>MASS</pkg>.</li>
       <li>Models for overdispersed counts and proportions
 	<ul>
 	  <li>Package <pkg>pscl</pkg> also contains several functions for dealing with over-dispersed count data. Poisson or 
@@ -109,10 +108,9 @@
 	<pkg>ade4</pkg>.</li>
       <li>Detrended Correspondence Analysis (DCA) is implemented in <code>decorana()</code> in <pkg>vegan</pkg>.</li> 
       <li>Principal coordinates analysis (PCO) is implemented in <code>dudi.pco()</code> in <pkg>ade4</pkg>, <code>pco()</code>
-        in <pkg>labdsv</pkg>, <code>pco()</code> in <pkg>ecodist</pkg>, and <code>cmdscale()</code> in package MASS in 
-        <pkg>VR</pkg>.</li>
-      <li>Non-Metric multi-Dimensional Scaling (NMDS) is provided by <code>isoMDS()</code> in package MASS in bundle 
-        <pkg>VR</pkg> and <code>nmds()</code> in <pkg>ecodist</pkg>. <code>nmds()</code>, a wrapper function for <code>isoMDS()</code>, 
+        in <pkg>labdsv</pkg>, <code>pco()</code> in <pkg>ecodist</pkg>, and <code>cmdscale()</code> in package <pkg>MASS</pkg>.</li>
+      <li>Non-Metric multi-Dimensional Scaling (NMDS) is provided by <code>isoMDS()</code> in package <pkg>MASS</pkg>
+        and <code>nmds()</code> in <pkg>ecodist</pkg>. <code>nmds()</code>, a wrapper function for <code>isoMDS()</code>, 
         is also provided by package <pkg>labdsv</pkg>. <pkg>vegan</pkg> provides helper function <code>metaMDS()</code> for 
         <code>isoMDS()</code>, implementing random starts of the algorithm and standardised scaling of the NMDS results. 
         The approach adopted by <pkg>vegan</pkg> with <code>metaMDS()</code> is the recommended approach for ecological
@@ -229,7 +227,7 @@
       <li>Classical time series functionality is provided by the <code>ar()</code>, and <code>arima()</code> functions in 
 	standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
 	integrated ARMA (ARIMA) models.</li>
-      <li>The dse1 and dse2 packages in the <pkg>dse</pkg> bundle provide a variety of more advanced estimation methods 
+      <li>The <pkg>dse</pkg> package provide a variety of more advanced estimation methods 
 	and multivariate time series analysis.</li>
       <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
       <li>Irregular time series can be handled using packages <pkg>zoo</pkg> and <pkg>its</pkg>, as well as by
@@ -242,7 +240,7 @@
 	squares</li>
       <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
 	be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, 
-	<code>loess()</code>, <code>rlm()</code> and <code>lqs()</code> from the MASS package in the <pkg>VR</pkg> bundle, 
+	<code>loess()</code>, <code>rlm()</code> and <code>lqs()</code> from <pkg>MASS</pkg>, 
 	<code>randomForest()</code> (package <pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst 
 	others, whilst preserving the time series	information.</li>
     </ul>
@@ -313,14 +311,15 @@
     <pkg>analogue</pkg>
     <pkg>aod</pkg>
     <pkg>ape</pkg>
-    <pkg>dyn</pkg>
-    <pkg>dynlm</pkg>
     <pkg>BiodiversityR</pkg>
     <pkg>CircStats</pkg>
     <pkg>circular</pkg>
     <pkg>clim.pact</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
+    <pkg>dse</pkg>
+    <pkg>dyn</pkg>
+    <pkg>dynlm</pkg>
     <pkg>e1071</pkg>
     <pkg>eco</pkg>
     <pkg>ecodist</pkg>
@@ -337,6 +336,7 @@
     <pkg priority="core">labdsv</pkg>
     <pkg>lme4</pkg>
     <pkg>maptree</pkg>
+    <pkg priority="core">MASS</pkg>
     <pkg>mclust</pkg>
     <pkg>mefa</pkg>
     <pkg priority="core">mgcv</pkg>
@@ -366,7 +366,6 @@
     <pkg priority="core">vegan</pkg>
     <pkg>vegetarian</pkg>
     <pkg>VGAM</pkg>
-    <pkg priority="core">VR</pkg>
     <pkg>zoo</pkg>
   </packagelist>
   <links>
