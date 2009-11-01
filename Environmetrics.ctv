@@ -1,4 +1,5 @@
-<CRANTaskView> <!-- emacs, please treat me as -*- html -*- -->
+<!-- Hey Emacs, make this -*- mode: XML -*- -->
+<CRANTaskView>
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
@@ -219,6 +220,21 @@
 	<a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
 	demonstrate the use of this approach for measuring beta diversity.</li>
     </ul>
+
+    <h4>Population dynamics</h4>
+    <p>Estimating vital rates (i.e., growth, survival, and reproduction), especially in monitoring studies of tagged individuals
+      over time:</p>
+    <ul>
+      <li>age-specific survival and reproduction using life tables in <pkg>demogR</pkg>,</li>
+      <li>stage-specific vital rates using transition frequency tables in <pkg>popbio</pkg>,</li>
+      <li>mark and recapture methods in <pkg>mra</pkg> and <pkg>Rcapture</pkg> when tagged individuals cannot be consistently 
+	detected identified.</li>
+    </ul>
+    <p>Modeling population growth rates:</p>
+    <ul>
+      <li>Packages <pkg>demogR</pkg> and <pkg>popbio</pkg> can be used to construct and analyse age- or stage-specific matrix 
+	population models</li>
+    </ul>
     
     <h4>Environmental time series</h4>
     <ul>
@@ -236,13 +252,15 @@
       <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
 	relationships.</li>
       <li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
+      <li>The <pkg>surveillance</pkg> package implements statistical methods for the modeling of and change-point detection
+	in time series of counts, proportions and categorical data. Focus is on outbreak detection in count data time series.</li>
       <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
 	squares</li>
       <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
 	be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, 
 	<code>loess()</code>, <code>rlm()</code> and <code>lqs()</code> from <pkg>MASS</pkg>, 
 	<code>randomForest()</code> (package <pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst 
-	others, whilst preserving the time series	information.</li>
+	others, whilst preserving the time series information.</li>
     </ul>
     
     <h4>Spatial data analysis</h4>
@@ -259,6 +277,7 @@
       <li><pkg>extRemes</pkg></li>
       <li><pkg>POT</pkg>, which provides functions for the Generalized Pareto Distribution and the Peaks Over Threshold 
 	method</li>
+      <li>The <pkg>SpatialExtremes</pkg> provides several approaches for modelling spatial extreme events.</li>
     </ul>
     
     <h4>Phylogenetics and evolution</h4>
@@ -317,6 +336,7 @@
     <pkg>clim.pact</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
+    <pkg>demogR</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -340,6 +360,7 @@
     <pkg>mclust</pkg>
     <pkg>mefa</pkg>
     <pkg priority="core">mgcv</pkg>
+    <pkg>mra</pkg>
     <pkg priority="core">mvpart</pkg>
     <pkg>NADA</pkg>
     <pkg>nlme</pkg>
@@ -350,18 +371,22 @@
     <pkg>pgirmess</pkg>
     <pkg>PHYLOGR</pkg>
     <pkg>pinktoe</pkg>
+    <pkg>popbio</pkg>
     <pkg>POT</pkg>
     <pkg>pscl</pkg>
     <pkg>prabclus</pkg>
     <pkg>primer</pkg>
     <pkg>randomForest</pkg>
+    <pkg>Rcapture</pkg>
     <pkg>rpart</pkg>
     <pkg>seacarb</pkg>
     <pkg>segmented</pkg>
     <pkg>simecol</pkg>
     <pkg>SoPhy</pkg>
+    <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
+    <pkg>surveillance</pkg>
     <pkg>tseries</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>vegetarian</pkg>
