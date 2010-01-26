@@ -155,7 +155,8 @@
       though the other functions listed above are faster. <code>distance()</code> can also be used to generate
       matrices based on Gower's coefficient for mixed data (mixtures of binary, ordinal/nominal and continuous variables).
       Function <code>daisy()</code> in package <pkg>cluster</pkg> provides a faster implementation of Gower's coefficient for
-      mixed-mode data than <code>distance()</code> if a standard dissimilarity matrix is required.</p>
+      mixed-mode data than <code>distance()</code> if a standard dissimilarity matrix is required. Function <code>gowdis()</code>
+      in package <pkg>FD</pkg> also computes Gower's coefficient and impliments extensions to ordinal variables.</p>
     
     <h4>Cluster analysis</h4>
     <p>Cluster analysis aims to identify groups of samples within multivariate data sets. A large range of 
@@ -219,6 +220,7 @@
 	  245-253</a>). Anderson et al (2006; 
 	<a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
 	demonstrate the use of this approach for measuring beta diversity.</li>
+      <li>The <pkg>FD</pkg> package computes several measures of functional diversity indices from multiple traits.</li>
     </ul>
 
     <h4>Population dynamics</h4>
@@ -348,6 +350,7 @@
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
+    <pkg>FD</pkg>
     <pkg>fso</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
