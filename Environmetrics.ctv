@@ -1,9 +1,9 @@
-<!-- Hey Emacs, make this -*- mode: XML -*- -->
+<!-- Hey Emacs make this -*- mode: XML -*- -->
 <CRANTaskView>
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2010-01-26</version>
+  <version>2010-03-04</version>
 
   <info>
     <h4>Introduction</h4>
@@ -15,8 +15,8 @@
       analysis of environmental and ecological data, a <a href="http://www.jstatsoft.org/v22/" >special volume</a> of 
       the <em>Journal of Statistical Software</em> was produced in 2007.</p>
     <p>Those useRs interested in environmetrics should consult the <view>Spatial</view> view. 
-      Complementary information is also available in the <view>Multivariate</view> and <view>Cluster</view> task
-      views.</p>
+      Complementary information is also available in the <view>Multivariate</view>, <view>Phylogenetics</view> and 
+      <view>Cluster</view> task views.</p>
     <p>If you have any comments or suggestions for additions or improvements, then please contact the
       <a href="mailto:gavin_DOT_simpson_AT_ucl_DOT_ac_DOT_uk?subject=Environmetrics%20Task%20View">maintainer</a>.</p>
     <p>A list of available packages and functions is presented below, grouped by analysis type.</p>
@@ -289,6 +289,8 @@
       <li><pkg>ouch</pkg></li>
       <li><pkg>PHYLOGR</pkg></li>
     </ul>
+    <p>The <view>Phylogenetics</view> task view provides more detailed coverage of the subject area and related functions
+      within R.</p>
     <p>UseRs may also be interested in Paradis (2006) <em>Analysis of Phylogenetics and Evolution with R</em>, Springer, 
       New York, a book in the new UseR series from Springer.</p>
     
@@ -399,6 +401,7 @@
   <links>
     <view>Spatial</view>
     <view>Multivariate</view>
+    <view>Cluster</view>
     <view>Cluster</view>
     <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
     <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
