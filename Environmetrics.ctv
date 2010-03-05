@@ -402,7 +402,7 @@
     <view>Spatial</view>
     <view>Multivariate</view>
     <view>Cluster</view>
-    <view>Cluster</view>
+    <view>Phylogenetics</view>
     <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
     <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
     <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
