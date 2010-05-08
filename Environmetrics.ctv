@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2010-03-04</version>
+  <version>2010-05-08</version>
 
   <info>
     <h4>Introduction</h4>
@@ -317,7 +317,6 @@
       	diagnostic plots.</li>
       <li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling of monthly 
         mean and daily mean global climate scenarios.</li>
-      <li>Package <pkg>SoPhy</pkg> provides soil physics tools in R including water flow by SWMS_2D.</li>
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
       <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
 	biogeography.</li>
@@ -387,7 +386,6 @@
     <pkg>seacarb</pkg>
     <pkg>segmented</pkg>
     <pkg>simecol</pkg>
-    <pkg>SoPhy</pkg>
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
