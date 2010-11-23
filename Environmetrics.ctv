@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2010-08-05</version>
+  <version>2010-11-23</version>
 
   <info>
     <h4>Introduction</h4>
@@ -224,19 +224,40 @@
     </ul>
 
     <h4>Population dynamics</h4>
-    <p>Estimating vital rates (i.e., growth, survival, and reproduction), especially in monitoring studies of tagged individuals
-      over time:</p>
+    <h5>Estimating animal abundance and related parameters</h5>
+    <p>This section concerns estimation of population parameters (population size, density, survival probability, site occupancy
+    etc.) by methods that allow for incomplete detection. Many of these methods use data on marked animals, variously called 
+    'capture-recapture', 'mark-recapture' or 'capture-mark-recapture' data.</p>
     <ul>
-      <li>stage-specific vital rates using transition frequency tables in <pkg>popbio</pkg>,</li>
-      <li>mark and recapture methods in <pkg>mra</pkg> and <pkg>Rcapture</pkg> when tagged individuals cannot be consistently 
-	detected identified.</li>
+      <li><pkg>Rcapture</pkg> fits loglinear models to estimate population size and survival rate from capture-recapture data as 
+      described by <a href="http://www.jstatsoft.org/v19/i05">Baillargeon and Rivest (2007)</a>.</li>
+      <li><pkg>mra</pkg> estimates survival by fitting the Cormack-Jolly-Seber open population model, using a flexible formula-based
+      approach for covariates (see also RMark). <pkg>mra</pkg> also fits Huggin's closed population model and computes Horvitz-Thompson
+      estimates of open-population size from CJS models.</li>
+      <li><pkg>secr</pkg> estimates population density given spatially explicit capture-recapture data from traps, passive DNA 
+      sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
+      halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
+      specified via formulae, as in <pkg>mra</pkg>.</li>
+      <li><pkg>SPACECAP</pkg> provides a graphical interface for fitting a spatially explicit capture-recapture model to photographic
+      'capture' data by the Bayesian method described in Royle et al. (<a href="http://www.esajournals.org/doi/abs/10.1890/08-1481.1">2009,
+      Ecology 90: 3233-3244</a>).</li>
+      <li><pkg>DSpat</pkg> provides analyses of line-transect distance sampling data in which the density surface and the detection function 
+      are estimated simultaneously (<a href="http://onlinelibrary.wiley.com.libproxy.ucl.ac.uk/doi/10.1111/j.1541-0420.2009.01265.x/abstract">Johnson
+      et al. 2009</a>).</li>
+      <li><pkg>unmarked</pkg> fits hierarchical models of occurrence and abundance to data collected on species subject to imperfect detection.
+      Examples include single- and multi-season occupancy models, binomial mixture models, and hierarchical distance sampling models. The data
+      can arise from survey methods such temporally replicated counts, removal sampling, double-observer sampling, and distance sampling.
+      Parameters governing the state and observation processes can be modeled as functions of covariates.</li>
+      <li>Package RMark (not on CRAN) provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
+      models (see <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a>). RMark also includes native R functions for estimating
+      survival and population size with Cormack-Jolly-Seber and Jolly-Seber open-population models.</li>
     </ul>
-    <p>Modeling population growth rates:</p>
+    <p>Packages <pkg>mra</pkg>, <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
+    <h5>Modeling population growth rates:</h5>
     <ul>
-      <li>Package <pkg>popbio</pkg> can be used to construct and analyse age- or stage-specific matrix 
-	population models.</li>
+      <li>Package <pkg>popbio</pkg> can be used to construct and analyse age- or stage-specific matrix population models.</li>
     </ul>
-    
+
     <h4>Environmental time series</h4>
     <ul>
       <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg>,
@@ -338,6 +359,7 @@
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
     <pkg>dse</pkg>
+    <pkg>DSpat</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
     <pkg>e1071</pkg>
@@ -379,8 +401,10 @@
     <pkg>Rcapture</pkg>
     <pkg>rpart</pkg>
     <pkg>seacarb</pkg>
+    <pkg>secr</pkg>
     <pkg>segmented</pkg>
     <pkg>simecol</pkg>
+    <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
