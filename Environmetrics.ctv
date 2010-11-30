@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2010-11-23</version>
+  <version>2010-11-30</version>
 
   <info>
     <h4>Introduction</h4>
@@ -55,7 +55,7 @@
       </li>
       <li id="changepoints">Detecting change points and structural changes in parametric models is well catered for in the 
 	<pkg>segmented</pkg> package and the <pkg>strucchange</pkg> package respectively. <pkg>segmented</pkg> has recently been 
-	the subject of an R News article (<a href="http://cran.r-project.org/doc/Rnews/Rnews_2008-1.pdf" 
+	the subject of an R News article (<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2008-1.pdf" 
 					     title="Link to segment article in R News">R News, volume 8 issue 1</a>).</li>
     </ul>
     
@@ -323,15 +323,13 @@
       	contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
       <li>Thomas Petzoldt's <pkg>simecol</pkg> package provides an object oriented framework and tools to simulate 
       	ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
-      	<a href="http://cran.r-project.org/doc/Rnews">R News</a> 
-      	<a href="http://cran.r-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
+      	<a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
+      	<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
       <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
       <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       	support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
       <li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
-      <li>Package <pkg>NADA</pkg> contains methods described by Dennis R. Helsel in his book <em>Nondetects And Data 
-      	  Analysis: Statistics for Censored Environmental Data</em>.</li>
       <li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
       	diagnostic plots.</li>
       <li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling of monthly 
@@ -385,7 +383,6 @@
     <pkg priority="core">mgcv</pkg>
     <pkg>mra</pkg>
     <pkg priority="core">mvpart</pkg>
-    <pkg>NADA</pkg>
     <pkg>nlme</pkg>
     <pkg>ouch</pkg>
     <pkg>party</pkg>
