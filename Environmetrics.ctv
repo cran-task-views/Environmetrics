@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2010-11-30</version>
+  <version>2011-01-03</version>
 
   <info>
     <h4>Introduction</h4>
@@ -261,28 +261,31 @@
     <h4>Environmental time series</h4>
     <ul>
       <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg>,
-	<pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
+	   <pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
       <li>Classical time series functionality is provided by the <code>ar()</code>, and <code>arima()</code> functions in 
-	standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
-	integrated ARMA (ARIMA) models.</li>
+	   standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
+	   integrated ARMA (ARIMA) models.</li>
       <li>The <pkg>dse</pkg> package provide a variety of more advanced estimation methods 
-	and multivariate time series analysis.</li>
+	   and multivariate time series analysis.</li>
       <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
       <li>Irregular time series can be handled using packages <pkg>zoo</pkg> and <pkg>its</pkg>, as well as by
-	<code>irts()</code> in package <pkg>tseries</pkg>.</li>
+	   <code>irts()</code> in package <pkg>tseries</pkg>.</li>
       <li><pkg>pastecs</pkg> provides functions specifically tailored for the analysis of space-time ecological series.</li>
       <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
-	relationships.</li>
+	   relationships.</li>
       <li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
       <li>The <pkg>surveillance</pkg> package implements statistical methods for the modeling of and change-point detection
-	in time series of counts, proportions and categorical data. Focus is on outbreak detection in count data time series.</li>
+	   in time series of counts, proportions and categorical data. Focus is on outbreak detection in count data time series.</li>
       <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
-	squares</li>
+	   squares</li>
       <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
-	be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, 
-	<code>loess()</code>, <code>rlm()</code> and <code>lqs()</code> from <pkg>MASS</pkg>, 
-	<code>randomForest()</code> (package <pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst 
-	others, whilst preserving the time series information.</li>
+	   be used with any regression function written in the style of lm such as <code>lm()</code>, <code>glm()</code>, 
+	   <code>loess()</code>, <code>rlm()</code> and <code>lqs()</code> from <pkg>MASS</pkg>, 
+	   <code>randomForest()</code> (package <pkg>randomForest</pkg>), <code>rq()</code> (package <pkg>quantreg</pkg>) amongst 
+	   others, whilst preserving the time series information.</li>
+	   <li>Package <pkg>wq</pkg> provides functions to assist in the processing and exploration of data from monitoring programs
+	   for aquatic ecosystems, with a focus on time series data for physical and chemical properties of water, and for the 
+	   plankton.</li>
     </ul>
     
     <h4>Spatial data analysis</h4>
@@ -410,6 +413,7 @@
     <pkg priority="core">vegan</pkg>
     <pkg>vegetarian</pkg>
     <pkg>VGAM</pkg>
+    <pkg>wq</pkg>
     <pkg>zoo</pkg>
   </packagelist>
   <links>
