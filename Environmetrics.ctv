@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2011-01-03</version>
+  <version>2011-01-28</version>
 
   <info>
     <h4>Introduction</h4>
@@ -344,6 +344,8 @@
 	(aka bioindication), for prediction of environmental data from species data</li>
       <li>Stephen Sefick's <pkg>StreamMetabolism</pkg> package contains function for calculating stream metabolism 
 	characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
+      <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
+        for research on animal diving and movement behaviour.</li>
     </ul>
   </info>
   <packagelist>
@@ -359,6 +361,7 @@
     <pkg>clim.pact</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
+    <pkg>diveMove</pkg>
     <pkg>dse</pkg>
     <pkg>DSpat</pkg>
     <pkg>dyn</pkg>
