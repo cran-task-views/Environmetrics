@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2011-01-28</version>
+  <version>2011-07-26</version>
 
   <info>
     <h4>Introduction</h4>
@@ -328,7 +328,7 @@
       	ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
       	<a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
       	<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
-      <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
+      <li>Functions for circular statistics are found in <pkg>circular</pkg>.</li>
       <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       	support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
@@ -356,7 +356,6 @@
     <pkg>aod</pkg>
     <pkg>ape</pkg>
     <pkg>BiodiversityR</pkg>
-    <pkg>CircStats</pkg>
     <pkg>circular</pkg>
     <pkg>clim.pact</pkg>
     <pkg priority="core">cluster</pkg>
