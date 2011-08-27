@@ -322,6 +322,9 @@
     <ul>
       <li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
       	selection by animals.</li>
+      <li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
+      A useful alternative to kernel density estimation for e.g. estimating animla densities and home ranges in regions with
+      irregular boundaries or holes.</li>
       <li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
       	tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
       	contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
@@ -382,6 +385,7 @@
     <pkg>ismev</pkg>
     <pkg>its</pkg>
     <pkg priority="core">labdsv</pkg>
+    <pkg>latticeDensity</pkg>
     <pkg>lme4</pkg>
     <pkg>maptree</pkg>
     <pkg priority="core">MASS</pkg>
