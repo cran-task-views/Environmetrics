@@ -263,8 +263,10 @@
       <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg>,
 	   <pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
       <li>Classical time series functionality is provided by the <code>ar()</code>, and <code>arima()</code> functions in 
-	   standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
-	   integrated ARMA (ARIMA) models.</li>
+      standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
+      integrated ARMA (ARIMA) models.</li>
+      <li>The <pkg>forecast</pkg> package provides methods and tools for displaying and analysing univariate time series
+      forecasts including exponential smoothing via state space models and automatic ARIMA modelling</li>
       <li>The <pkg>dse</pkg> package provide a variety of more advanced estimation methods 
 	   and multivariate time series analysis.</li>
       <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
@@ -288,6 +290,8 @@
       plankton.</li>
       <li>The <pkg>openair</pkg> provides numerous tools to analyse, interpret and understand air pollution time series data</li>
     </ul>
+    <p>Additionally, a fuller description of available packages for time series analysis can be found in the <view>TimeSeries</view>
+    task view.</p>
     
     <h4>Spatial data analysis</h4>
     <p>See the <view>Spatial</view> CRAN Task View  for an overview of spatial analysis in R.</p>
@@ -408,6 +412,7 @@
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
     <pkg>FD</pkg>
+    <pkg>forecast</pkg>
     <pkg>fso</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
