@@ -316,6 +316,34 @@
       within R.</p>
     <p>UseRs may also be interested in Paradis (2006) <em>Analysis of Phylogenetics and Evolution with R</em>, Springer, 
       New York, a book in the new UseR series from Springer.</p>
+
+      <h4>Soil science</h4>
+      <p>Several packages are now available that implement R functions for widely-used methods and approaches in pedology.</p>
+      <ul>
+	<li><pkg>soiltexture</pkg> provides functions for soil texture plot, classification and transformation.</li>
+	<li><pkg>aqp</pkg> contains a collection of algorithms related to modeling of soil resources, soil classification,
+	soil profile aggregation, and visualization.</li>
+	<li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
+	method.</li>
+	<li><pkg>soil.spec</pkg> package combines existing R functions with new code for soil spectral analysis. The result
+	is an easy to use tool for:
+	<ol>
+	  <li>importing of spc-files,</li>
+	  <li>principal component analysis,</li>
+	  <li>sample selection using the Kennard-Stone algorithm,</li>
+	  <li>spectral transformation, and</li>
+	  <li>comparison of regression methods.</li>
+	</ol>
+	</li>
+	<li>The Soil Water project on r-forge.r-project.net provides packages providing soil water retention functions, 
+	soil hydraulic conductivity functions and pedotransfer functions to estimate their parameter from easily available soil
+	properties. Two packages form the project:
+	<ol>
+	  <li><rforge>soilwaterfun</rforge></li>
+	  <li><rforge>soilwaterptf</rforge></li>
+	</ol>
+	</li>
+      </ul>
     
     <h4>Other packages</h4>
     <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
@@ -359,6 +387,7 @@
     <pkg>analogue</pkg>
     <pkg>aod</pkg>
     <pkg>ape</pkg>
+    <pkg>aqp</pkg>
     <pkg>BiodiversityR</pkg>
     <pkg>CircStats</pkg>
     <pkg>circular</pkg>
@@ -382,6 +411,7 @@
     <pkg>fso</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
+    <pkg>HyrodMe</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>
     <pkg priority="core">labdsv</pkg>
@@ -413,6 +443,10 @@
     <pkg>secr</pkg>
     <pkg>segmented</pkg>
     <pkg>simecol</pkg>
+    <pkg>soiltexture</pkg>
+    <rforge>soilwaterfun</rforge>
+    <rforge>soilwaterptf</rforge>
+    <pkg>soil.spec</pkg>
     <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
