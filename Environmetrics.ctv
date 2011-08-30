@@ -418,7 +418,7 @@
     <pkg>fso</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
-    <pkg>HyrodMe</pkg>
+    <pkg>HydroMe</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>
     <pkg priority="core">labdsv</pkg>
@@ -452,8 +452,6 @@
     <pkg>simba</pkg>
     <pkg>simecol</pkg>
     <pkg>soiltexture</pkg>
-    <rforge>soilwaterfun</rforge>
-    <rforge>soilwaterptf</rforge>
     <pkg>soil.spec</pkg>
     <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
@@ -472,6 +470,8 @@
     <view>Multivariate</view>
     <view>Cluster</view>
     <view>Phylogenetics</view>
+    <rforge>soilwaterfun</rforge>
+    <rforge>soilwaterptf</rforge>
     <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
     <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
     <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
