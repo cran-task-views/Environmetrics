@@ -3,8 +3,8 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2011-08-27</version>
-
+  <version>2011-11-04</version>
+  
   <info>
     <h4>Introduction</h4>
     <p>This Task View contains information about using R to analyse ecological and environmental data.</p>
@@ -351,136 +351,165 @@
 	</li>
       </ul>
     
-    <h4>Other packages</h4>
-    <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
-    <ul>
-      <li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
+      <h4>Hydrology</h4>
+      <p>A growing number of packages are available that implement methods specifically related to the field of hydrology.</p>
+      <ul>
+	<li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
+	method.</li>
+	<li><pkg>HydroTSM</pkg> is a package for management, analysis, interpolation and plotting of time series used in hydrology
+	and related environmental sciences.estimates the parameters in infiltration and water retention models by curve-fitting
+	method.</li>
+	<li><pkg>HydroGOF</pkg> is a package implementing both statistical and graphical goodness-of-fit measures between
+	observed and simulated values, mainly oriented to be used during the calibration, validation, and application of
+	hydrological/environmental models.estimates the parameters in infiltration and water retention models by 
+	curve-fitting method.</li>
+	<li><pkg>EcoHydRology</pkg> provides a flexible foundation for scientists, engineers, and policy makers to base
+	teaching exercises as well as for more applied use to model complex eco-hydrological interactions.</li>
+	<li><pkg>topmodel</pkg> is a set of hydrological functions including an R implementation of the hydrological model
+	TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. New functionality is being developed as part of
+	the <rforge>RHydro</rforge> package on R-Forge.</li>
+	<li><pkg>hydrosanity</pkg> provides a graphical user interface for exploring hydrological time series.</li>
+	<li><pkg>wasim</pkg> provides tools for data processing and visualisation of results of the hydrological model WASIM-ETH</li>
+      </ul>
+
+      <h4>Other packages</h4>
+      <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
+      <ul>
+	<li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
       	selection by animals.</li>
-      <li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
-      A useful alternative to kernel density estimation for e.g. estimating animla densities and home ranges in regions with
-      irregular boundaries or holes.</li>
-      <li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
+	<li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
+	A useful alternative to kernel density estimation for e.g. estimating animla densities and home ranges in regions with
+	irregular boundaries or holes.</li>
+	<li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
       	tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
       	contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
-      <li>Thomas Petzoldt's <pkg>simecol</pkg> package provides an object oriented framework and tools to simulate 
+	<li>Thomas Petzoldt's <pkg>simecol</pkg> package provides an object oriented framework and tools to simulate 
       	ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
       	<a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
       	<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
-      <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
-      <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
-      <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
+	<li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
+	<li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
+	<li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       	support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
-      <li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
-      <li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
+	<li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
+	<li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
       	diagnostic plots.</li>
-      <li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling of monthly 
+	<li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling of monthly 
         mean and daily mean global climate scenarios.</li>
-      <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
-      <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
+	<li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
+	<li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
 	biogeography.</li>
-      <li><pkg>analogue</pkg> fits Modern Analogue Technique and Weighted Averaging transfer function models for calibration 
+	<li><pkg>analogue</pkg> fits Modern Analogue Technique and Weighted Averaging transfer function models for calibration 
 	(aka bioindication), for prediction of environmental data from species data</li>
-      <li>Stephen Sefick's <pkg>StreamMetabolism</pkg> package contains function for calculating stream metabolism 
+	<li>Stephen Sefick's <pkg>StreamMetabolism</pkg> package contains function for calculating stream metabolism 
 	characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
-      <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
+	<li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
         for research on animal diving and movement behaviour.</li>
-    </ul>
-  </info>
-  <packagelist>
-    <pkg priority="core">ade4</pkg>
-    <pkg>adehabitat</pkg>
-    <pkg>amap</pkg>
-    <pkg>analogue</pkg>
-    <pkg>aod</pkg>
-    <pkg>ape</pkg>
-    <pkg>aqp</pkg>
-    <pkg>BiodiversityR</pkg>
-    <pkg>CircStats</pkg>
-    <pkg>circular</pkg>
-    <pkg>clim.pact</pkg>
-    <pkg priority="core">cluster</pkg>
-    <pkg>cocorresp</pkg>
-    <pkg>diveMove</pkg>
-    <pkg>dse</pkg>
-    <pkg>DSpat</pkg>
-    <pkg>dyn</pkg>
-    <pkg>dynlm</pkg>
-    <pkg>e1071</pkg>
-    <pkg>eco</pkg>
-    <pkg>ecodist</pkg>
-    <pkg>equivalence</pkg>
-    <pkg>evd</pkg>
-    <pkg>evdbayes</pkg>
-    <pkg>evir</pkg>
-    <pkg>extRemes</pkg>
-    <pkg>FD</pkg>
-    <pkg>forecast</pkg>
-    <pkg>fso</pkg>
-    <pkg>gam</pkg>
-    <pkg>gamair</pkg>
-    <pkg>HydroMe</pkg>
-    <pkg>ismev</pkg>
-    <pkg>its</pkg>
-    <pkg priority="core">labdsv</pkg>
-    <pkg>latticeDensity</pkg>
-    <pkg>lme4</pkg>
-    <pkg>maptree</pkg>
-    <pkg priority="core">MASS</pkg>
-    <pkg>mclust</pkg>
-    <pkg>mefa</pkg>
-    <pkg priority="core">mgcv</pkg>
-    <pkg>mra</pkg>
-    <pkg priority="core">mvpart</pkg>
-    <pkg>nlme</pkg>
-    <pkg>openair</pkg>
-    <pkg>ouch</pkg>
-    <pkg>party</pkg>
-    <pkg>pastecs</pkg>
-    <pkg>pcurve</pkg>
-    <pkg>pgirmess</pkg>
-    <pkg>popbio</pkg>
-    <pkg>POT</pkg>
-    <pkg>pscl</pkg>
-    <pkg>prabclus</pkg>
-    <pkg>primer</pkg>
-    <pkg>randomForest</pkg>
-    <pkg>Rcapture</pkg>
-    <pkg>rpart</pkg>
-    <pkg>seacarb</pkg>
-    <pkg>secr</pkg>
-    <pkg>segmented</pkg>
-    <pkg>simba</pkg>
-    <pkg>simecol</pkg>
-    <pkg>soiltexture</pkg>
-    <pkg>soil.spec</pkg>
-    <pkg>SPACECAP</pkg>
-    <pkg>SpatialExtremes</pkg>
-    <pkg>StreamMetabolism</pkg>
-    <pkg>strucchange</pkg>
-    <pkg>surveillance</pkg>
-    <pkg>tseries</pkg>
-    <pkg priority="core">vegan</pkg>
-    <pkg>vegetarian</pkg>
-    <pkg>VGAM</pkg>
-    <pkg>wq</pkg>
-    <pkg>zoo</pkg>
-  </packagelist>
-  <links>
-    <view>Spatial</view>
-    <view>Multivariate</view>
-    <view>Cluster</view>
-    <view>Phylogenetics</view>
-    <rforge>soilwaterfun</rforge>
-    <rforge>soilwaterptf</rforge>
-    <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
-    <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
-    <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
-    <a href="http://cocorresp.r-forge.r-project.org/">The cocorresp development site on R-Forge</a>
-    <a href="http://analogue.r-forge.r-project.org/">The analogue development site on R-Forge</a>        
-    <a href="http://www.brodgar.com/">Brodgar</a>
-    <a href="http://pbil.univ-lyon1.fr/ADE-4/">More information on the ade4 package can be found on the ADE4 website</a>
-    <a href="http://ordination.okstate.edu/">Mike Palmer's Ordination web site</a>
-    <a href="http://www.tu-dresden.de/fghhihb/petzoldt/zeugs.html">Thomas Petzoldt's page about ecological modelling with R.</a>
-    <a href="http://www.flr-project.org/doku.php">The FLR project web page for Fisheries Science in R.</a>
-  </links>
-</CRANTaskView>
+      </ul>
+    </info>
+    <packagelist>
+      <pkg priority="core">ade4</pkg>
+      <pkg>adehabitat</pkg>
+      <pkg>amap</pkg>
+      <pkg>analogue</pkg>
+      <pkg>aod</pkg>
+      <pkg>ape</pkg>
+      <pkg>aqp</pkg>
+      <pkg>BiodiversityR</pkg>
+      <pkg>CircStats</pkg>
+      <pkg>circular</pkg>
+      <pkg>clim.pact</pkg>
+      <pkg priority="core">cluster</pkg>
+      <pkg>cocorresp</pkg>
+      <pkg>diveMove</pkg>
+      <pkg>dse</pkg>
+      <pkg>DSpat</pkg>
+      <pkg>dyn</pkg>
+      <pkg>dynlm</pkg>
+      <pkg>EcoHydRology</pkg>
+      <pkg>e1071</pkg>
+      <pkg>eco</pkg>
+      <pkg>ecodist</pkg>
+      <pkg>equivalence</pkg>
+      <pkg>evd</pkg>
+      <pkg>evdbayes</pkg>
+      <pkg>evir</pkg>
+      <pkg>extRemes</pkg>
+      <pkg>FD</pkg>
+      <pkg>forecast</pkg>
+      <pkg>fso</pkg>
+      <pkg>gam</pkg>
+      <pkg>gamair</pkg>
+      <pkg>HydroGOF</pkg>
+      <pkg>HydroMe</pkg>
+      <pkg>HydroTSM</pkg>
+      <pkg>hydrosanity</pkg>
+      <pkg>ismev</pkg>
+      <pkg>its</pkg>
+      <pkg priority="core">labdsv</pkg>
+      <pkg>latticeDensity</pkg>
+      <pkg>lme4</pkg>
+      <pkg>maptree</pkg>
+      <pkg priority="core">MASS</pkg>
+      <pkg>mclust</pkg>
+      <pkg>mefa</pkg>
+      <pkg priority="core">mgcv</pkg>
+      <pkg>mra</pkg>
+      <pkg priority="core">mvpart</pkg>
+      <pkg>nlme</pkg>
+      <pkg>openair</pkg>
+      <pkg>ouch</pkg>
+      <pkg>party</pkg>
+      <pkg>pastecs</pkg>
+      <pkg>pcurve</pkg>
+      <pkg>pgirmess</pkg>
+      <pkg>popbio</pkg>
+      <pkg>POT</pkg>
+      <pkg>pscl</pkg>
+      <pkg>prabclus</pkg>
+      <pkg>primer</pkg>
+      <pkg>randomForest</pkg>
+      <pkg>Rcapture</pkg>
+      <pkg>RHydro</pkg>
+      <pkg>rpart</pkg>
+      <pkg>seacarb</pkg>
+      <pkg>secr</pkg>
+      <pkg>segmented</pkg>
+      <pkg>simba</pkg>
+      <pkg>simecol</pkg>
+      <pkg>soiltexture</pkg>
+      <pkg>soil.spec</pkg>
+      <pkg>SPACECAP</pkg>
+      <pkg>SpatialExtremes</pkg>
+      <pkg>StreamMetabolism</pkg>
+      <pkg>strucchange</pkg>
+      <pkg>surveillance</pkg>
+      <pkg>topmodel</pkg>
+      <pkg>tseries</pkg>
+      <pkg priority="core">vegan</pkg>
+      <pkg>vegetarian</pkg>
+      <pkg>VGAM</pkg>
+      <pkg>wasim</pkg>
+      <pkg>wq</pkg>
+      <pkg>zoo</pkg>
+    </packagelist>
+    <links>
+      <view>Spatial</view>
+      <view>Multivariate</view>
+      <view>Cluster</view>
+      <view>Phylogenetics</view>
+      <rforge>soilwaterfun</rforge>
+      <rforge>soilwaterptf</rforge>
+      <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
+      <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
+      <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
+      <a href="http://cocorresp.r-forge.r-project.org/">The cocorresp development site on R-Forge</a>
+      <a href="http://analogue.r-forge.r-project.org/">The analogue development site on R-Forge</a>        
+      <a href="http://www.brodgar.com/">Brodgar</a>
+      <a href="http://pbil.univ-lyon1.fr/ADE-4/">More information on the ade4 package can be found on the ADE4 website</a>
+      <a href="http://ordination.okstate.edu/">Mike Palmer's Ordination web site</a>
+      <a href="http://www.tu-dresden.de/fghhihb/petzoldt/zeugs.html">Thomas Petzoldt's page about ecological modelling with R.</a>
+      <a href="http://www.flr-project.org/doku.php">The FLR project web page for Fisheries Science in R.</a>
+    </links>
+  </CRANTaskView>
+  
