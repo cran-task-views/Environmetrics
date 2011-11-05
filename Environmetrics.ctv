@@ -356,10 +356,10 @@
       <ul>
 	<li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
 	method.</li>
-	<li><pkg>HydroTSM</pkg> is a package for management, analysis, interpolation and plotting of time series used in hydrology
+	<li><pkg>hydroTSM</pkg> is a package for management, analysis, interpolation and plotting of time series used in hydrology
 	and related environmental sciences.estimates the parameters in infiltration and water retention models by curve-fitting
 	method.</li>
-	<li><pkg>HydroGOF</pkg> is a package implementing both statistical and graphical goodness-of-fit measures between
+	<li><pkg>hydroGOF</pkg> is a package implementing both statistical and graphical goodness-of-fit measures between
 	observed and simulated values, mainly oriented to be used during the calibration, validation, and application of
 	hydrological/environmental models.estimates the parameters in infiltration and water retention models by 
 	curve-fitting method.</li>
@@ -368,7 +368,6 @@
 	<li><pkg>topmodel</pkg> is a set of hydrological functions including an R implementation of the hydrological model
 	TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. New functionality is being developed as part of
 	the <rforge>RHydro</rforge> package on R-Forge.</li>
-	<li><pkg>hydrosanity</pkg> provides a graphical user interface for exploring hydrological time series.</li>
 	<li><pkg>wasim</pkg> provides tools for data processing and visualisation of results of the hydrological model WASIM-ETH</li>
       </ul>
 
@@ -440,10 +439,9 @@
       <pkg>fso</pkg>
       <pkg>gam</pkg>
       <pkg>gamair</pkg>
-      <pkg>HydroGOF</pkg>
+      <pkg>hydroGOF</pkg>
       <pkg>HydroMe</pkg>
-      <pkg>HydroTSM</pkg>
-      <pkg>hydrosanity</pkg>
+      <pkg>hydroTSM</pkg>
       <pkg>ismev</pkg>
       <pkg>its</pkg>
       <pkg priority="core">labdsv</pkg>
@@ -470,7 +468,6 @@
       <pkg>primer</pkg>
       <pkg>randomForest</pkg>
       <pkg>Rcapture</pkg>
-      <pkg>RHydro</pkg>
       <pkg>rpart</pkg>
       <pkg>seacarb</pkg>
       <pkg>secr</pkg>
@@ -500,6 +497,7 @@
       <view>Phylogenetics</view>
       <rforge>soilwaterfun</rforge>
       <rforge>soilwaterptf</rforge>
+      <rforge>RHydro</rforge>
       <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
       <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
       <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R.</a>
