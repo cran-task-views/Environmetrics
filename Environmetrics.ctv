@@ -361,8 +361,7 @@
 	and related environmental sciences.</li>
 	<li><pkg>hydroGOF</pkg> is a package implementing both statistical and graphical goodness-of-fit measures between
 	observed and simulated values, mainly oriented to be used during the calibration, validation, and application of
-	hydrological/environmental models.estimates the parameters in infiltration and water retention models by 
-	curve-fitting method.</li>
+	hydrological/environmental models.</li>
 	<li><pkg>EcoHydRology</pkg> provides a flexible foundation for scientists, engineers, and policy makers to base
 	teaching exercises as well as for more applied use to model complex eco-hydrological interactions.</li>
 	<li><pkg>topmodel</pkg> is a set of hydrological functions including an R implementation of the hydrological model
