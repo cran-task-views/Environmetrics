@@ -3,7 +3,7 @@
 	<name>Environmetrics</name>
    <topic>Analysis of Ecological and Environmental Data</topic>
    <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-   <version>2012-03-10</version>
+   <version>2012-04-11</version>
   
    <info>
 	   <h4>Introduction</h4>
@@ -130,9 +130,6 @@
         estimation alternative to CCA fit by Quadratic Reduced Rank Vector GLMs. Constrained Additive Ordination (CAO) is a 
         flexible alternative to CQO which uses Quadratic Reduced Rank Vector GAMs. These methods and more are provided in 
         Thomas Yee's <pkg>VGAM</pkg> package.</li>
-      <li>Fuzzy set ordination (FSO), an alternative to CCA/RDA and CAP, is available in package <pkg>fso</pkg>. <pkg>fso</pkg>
-        complements a recent paper on fuzzy sets in the journal <em>Ecology</em> by Dave Roberts (2008, Statistical analysis of 
-        multidimensional fuzzy set ordinations. <em>Ecology</em> <strong>89(5)</strong>, 1246-1260).</li>
       <li>See also the <view>Multivariate</view> task view for complementary information.</li>
     </ul>
     
@@ -471,7 +468,6 @@
       <pkg>fast</pkg>
       <pkg>FD</pkg>
       <pkg>forecast</pkg>
-      <pkg>fso</pkg>
       <pkg>gam</pkg>
       <pkg>gamair</pkg>
       <pkg>hydroGOF</pkg>
