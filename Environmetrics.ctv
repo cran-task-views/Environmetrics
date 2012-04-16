@@ -3,7 +3,7 @@
 	<name>Environmetrics</name>
    <topic>Analysis of Ecological and Environmental Data</topic>
    <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-   <version>2012-04-11</version>
+   <version>2012-04-16</version>
   
    <info>
 	   <h4>Introduction</h4>
@@ -202,11 +202,6 @@
       <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
 	under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	curves.</li>
-      <li><pkg>primer</pkg> is a support software for Stevens 
-	(<a href="http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0">2009, <em>A Primer of Ecology with R</em>, 
-	  Springer</a>). The package provides a variety of functions for modeling ecological data and basic theoretical ecology, 
-	including functions related to demographic matrix models, metapopulation and source-sink models, host-parasitoid and 
-	disease models, multiple basins of attraction, the storage effect, neutral theory, and diversity partitioning.</li>
       <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
       <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in 
 	Koleff et al (2003; <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of 
@@ -499,7 +494,6 @@
       <pkg>POT</pkg>
       <pkg>pscl</pkg>
       <pkg>prabclus</pkg>
-      <pkg>primer</pkg>
       <pkg>qualV</pkg>
       <pkg>randomForest</pkg>
       <pkg>rconifers</pkg>
