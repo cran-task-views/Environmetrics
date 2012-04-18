@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2012-04-16</version>
+  <version>2012-04-18</version>
   
   <info>
     <h4>Introduction</h4>
@@ -361,6 +361,9 @@
 	hydrological/environmental models. Related packages are <pkg>tiger</pkg>, which allows temporally resolved groups of
 	typical differences (errors) between two time series to be determined and visualized, and <pkg>qualV</pkg> which
 	provides quantitative and qualitative criteria to compare models with data and to measure similarity of patterns</li>
+      <li><pkg>hydroPSO</pkg>hydroPSO is a model-independent global optimization tool for calibration of environmental/hydrological
+	models, implementing an state-of-the-art <acronym title="Particle Swarm Optimisation">PSO</acronym> algorithm, with several
+	fine-tuning options.</li>
       <li><pkg>EcoHydRology</pkg> provides a flexible foundation for scientists, engineers, and policy makers to base
 	teaching exercises as well as for more applied use to model complex eco-hydrological interactions.</li>
       <li><pkg>topmodel</pkg> is a set of hydrological functions including an R implementation of the hydrological model
@@ -467,6 +470,7 @@
     <pkg>gamair</pkg>
     <pkg>hydroGOF</pkg>
     <pkg>HydroMe</pkg>
+    <pkg>hydroPSO</pkg>
     <pkg>hydroTSM</pkg>
     <pkg>Interpol.T</pkg>
     <pkg>ismev</pkg>
