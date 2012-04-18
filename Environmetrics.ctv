@@ -361,7 +361,7 @@
 	hydrological/environmental models. Related packages are <pkg>tiger</pkg>, which allows temporally resolved groups of
 	typical differences (errors) between two time series to be determined and visualized, and <pkg>qualV</pkg> which
 	provides quantitative and qualitative criteria to compare models with data and to measure similarity of patterns</li>
-      <li><pkg>hydroPSO</pkg>hydroPSO is a model-independent global optimization tool for calibration of environmental/hydrological
+      <li><pkg>hydroPSO</pkg> is a model-independent global optimization tool for calibration of environmental/hydrological
 	models, implementing an state-of-the-art <acronym title="Particle Swarm Optimisation">PSO</acronym> algorithm, with several
 	fine-tuning options.</li>
       <li><pkg>EcoHydRology</pkg> provides a flexible foundation for scientists, engineers, and policy makers to base
