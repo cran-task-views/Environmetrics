@@ -390,7 +390,6 @@
       <li><pkg>climatol</pkg>provides functions to homogenize (outlier and shifts detection/correction) climatological
 	series and to list climatological summaries of the homogenized results, plus functions to draw wind-rose and Walter 
 	&amp; Lieth diagrams.</li>
-      <li><pkg>seas</pkg> implements a number of functions for analysis and graphics of seasonal data.</li>
       <li><pkg>RMAWGEN</pkg> is set of S3 and S4 functions for spatial multi-site stochastic generation of daily
 	time series of temperature and precipitation making use of Vector Autoregressive Models.</li>
       <li><pkg>Interpol.T</pkg> makes hourly interpolation of daily minimum and maximum temperature series for example
@@ -503,7 +502,6 @@
     <pkg>rpart</pkg>
     <pkg>RMAWGEN</pkg>
     <pkg>seacarb</pkg>
-    <pkg>seas</pkg>
     <pkg>secr</pkg>
     <pkg>segmented</pkg>
     <pkg>sensitivity</pkg>
