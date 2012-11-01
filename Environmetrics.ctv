@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2012-06-24</version>
+  <version>2012-11-01</version>
   
   <info>
     <h4>Introduction</h4>
@@ -327,16 +327,6 @@
 	soil profile aggregation, and visualization.</li>
       <li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
 	method.</li>
-      <li><pkg>soil.spec</pkg> package combines existing R functions with new code for soil spectral analysis. The result
-	is an easy to use tool for:
-	<ol>
-	  <li>importing of spc-files,</li>
-	  <li>principal component analysis,</li>
-	  <li>sample selection using the Kennard-Stone algorithm,</li>
-	  <li>spectral transformation, and</li>
-	  <li>comparison of regression methods.</li>
-	</ol>
-      </li>
       <li>The Soil Water project on r-forge.r-project.net provides packages providing soil water retention functions, 
 	soil hydraulic conductivity functions and pedotransfer functions to estimate their parameter from easily available soil
 	properties. Two packages form the project:
@@ -508,7 +498,6 @@
     <pkg>simba</pkg>
     <pkg>simecol</pkg>
     <pkg>soiltexture</pkg>
-    <pkg>soil.spec</pkg>
     <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
