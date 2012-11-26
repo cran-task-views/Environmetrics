@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2012-11-05</version>
+  <version>2012-11-26</version>
   
   <info>
     <h4>Introduction</h4>
@@ -272,8 +272,6 @@
       <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
 	relationships.</li>
       <li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
-      <li>The <pkg>surveillance</pkg> package implements statistical methods for the modeling of and change-point detection
-	in time series of counts, proportions and categorical data. Focus is on outbreak detection in count data time series.</li>
       <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
 	squares</li>
       <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
@@ -500,7 +498,6 @@
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
-    <pkg>surveillance</pkg>
     <pkg>tiger</pkg>
     <pkg>topmodel</pkg>
     <pkg>tseries</pkg>
