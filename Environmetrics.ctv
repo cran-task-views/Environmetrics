@@ -2,8 +2,8 @@
 <CRANTaskView>
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
-  <maintainer email="gavin.simpson@ucl.ac.uk">Gavin Simpson</maintainer>
-  <version>2012-12-22</version>
+  <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
+  <version>2013-01-06</version>
   
   <info>
     <h4>Introduction</h4>
@@ -382,37 +382,55 @@
       <li><pkg>Interpol.T</pkg> makes hourly interpolation of daily minimum and maximum temperature series for example
 	when hourly time series must be downscaled from the daily information.</li>
     </ul>
+
+    <h4>Palaeoecology and stratigraphic data</h4>
+    <p>Several packages now provide speciailist functionality for the import, analysis, and plotting of
+    palaeoecological data.</p>
+    <ul>
+      <li>Transfer function models including weighted averaging (WA), modern analogue technique (MAT), Locally-weighted WA, &amp;
+      maximum likelihood (aka Gaussian logistic) regression (GLR) are provided by some or all of the <pkg>rioja</pkg>,
+      and <pkg>analogue</pkg> packages.</li>
+      <li>Import of common, legacy, palaeodata formats are provided by package <pkg>vegan</pkg> (cornell format) and <pkg>rioja</pkg>
+      (cornell and Tilia format). In addition, <pkg>rioja</pkg> also allows for import of C2 model files.</li>
+      <li>Stratigraphic data plots can be drawn using <code>Stratiplot()</code> function in <pkg>analogue</pkg> and functions
+      <code>strat.plot()</code> and <code>strat.plot.simple</code> in the <pkg>rioja</pkg> package.</li>
+      <li><pkg>analogue</pkg> provides extensive support for developing and interpretting MAT transfer function models,
+      including ROC curve analysis. Summary of stratigraphic data is supported via principal curves in the <code>prcurve()</code>
+      function.</li>
+      <li>Constrained clustering of stratigraphic data is provided by function <code>chclust()</code> in the form of constrained
+      hierarchical clustering in <pkg>rioja</pkg>.</li>
+    </ul>
     
     <h4>Other packages</h4>
     <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
     <ul>
       <li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
-	selection by animals.</li>
+      selection by animals.</li>
       <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
-	for research on animal diving and movement behaviour.</li>
+      for research on animal diving and movement behaviour.</li>
       <li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
-	A useful alternative to kernel density estimation for e.g. estimating animal densities and home ranges in regions with
-	irregular boundaries or holes.</li>
+      A useful alternative to kernel density estimation for e.g. estimating animal densities and home ranges in regions with
+      irregular boundaries or holes.</li>
       <li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
-	tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
-	contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
+      tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
+      contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
       <li>Thomas Petzoldt's <pkg>simecol</pkg> package provides an object oriented framework and tools to simulate 
-	ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
-	<a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
-	<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
+      ecological (and other) dynamic systems within R. See the <a href="http://www.simecol.de/">simecol website</a> and a
+      <a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
+      <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
       <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
       <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
-	support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
+      support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
       <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
-	biogeography.</li>
-      <li><pkg>analogue</pkg> fits Modern Analogue Technique and Weighted Averaging transfer function models for calibration 
-	(aka bioindication), for prediction of environmental data from species data</li>
+      biogeography.</li>
       <li>Sensitivity analysis of models is provided by packages <pkg>sensitivity</pkg> and <pkg>fast</pkg>.
-	<pkg>sensitivity</pkg> contains a collection of functions for factor screening and global sensitivity analysis of model
-	output. <pkg>fast</pkg> is an implementation of the Fourier Amplitude Sensitivity Test (FAST), a method to determine
-	global sensitivities of a model on parameter changes with relatively few model runs.</li>
+      <pkg>sensitivity</pkg> contains a collection of functions for factor screening and global sensitivity analysis of model
+      output. <pkg>fast</pkg> is an implementation of the Fourier Amplitude Sensitivity Test (FAST), a method to determine
+      global sensitivities of a model on parameter changes with relatively few model runs.</li>
+      <li>Functions to analyze coherence, boundary clumping, and turnover following the pattern-based metacommunity analysis of
+      Leibold and Mikkelson (2002) are provided in the <pkg>metacom</pkg> package.</li>
     </ul>
   </info>
   <packagelist>
@@ -463,6 +481,7 @@
     <pkg priority="core">MASS</pkg>
     <pkg>mclust</pkg>
     <pkg>mefa</pkg>
+    <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
     <pkg>mra</pkg>
     <pkg priority="core">mvpart</pkg>
@@ -482,6 +501,7 @@
     <pkg>randomForest</pkg>
     <pkg>rconifers</pkg>
     <pkg>Rcapture</pkg>
+    <pkg>rioja</pkg>
     <pkg>rpart</pkg>
     <pkg>RMAWGEN</pkg>
     <pkg>seacarb</pkg>
