@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-01-06</version>
+  <version>2013-01-25</version>
   
   <info>
     <h4>Introduction</h4>
@@ -362,8 +362,6 @@
 	characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
       <li>Package <pkg>oce</pkg> supports the analysis of Oceanographic data, including ADP measurements, CTD measurements,
 	sectional data, sea-level time series, and coastline files.</li>
-      <li>The <pkg>nsRFA</pkg> package provides collection of statistical tools for objective (non-supervised) applications
-	of the Regional Frequency Analysis methods in hydrology.</li>
       <li>The <pkg>boussinesq</pkg> package is a collection of functions implementing the one-dimensional Boussinesq Equation
 	(ground-water).</li>
     </ul>
@@ -487,7 +485,6 @@
     <pkg>mra</pkg>
     <pkg priority="core">mvpart</pkg>
     <pkg>nlme</pkg>
-    <pkg>nsRFA</pkg>
     <pkg>oce</pkg>
     <pkg>openair</pkg>
     <pkg>ouch</pkg>
