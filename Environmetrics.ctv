@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-01-25</version>
+  <version>2013-01-29</version>
   
   <info>
     <h4>Introduction</h4>
@@ -455,6 +455,7 @@
     <pkg>dynlm</pkg>
     <pkg>EcoHydRology</pkg>
     <pkg>e1071</pkg>
+    <pkg>earth</pkg>
     <pkg>eco</pkg>
     <pkg>ecodist</pkg>
     <pkg>equivalence</pkg>
@@ -464,6 +465,7 @@
     <pkg>extRemes</pkg>
     <pkg>fast</pkg>
     <pkg>FD</pkg>
+    <pkg>flexmix</pkg>
     <pkg>forecast</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
@@ -472,6 +474,7 @@
     <pkg>hydroPSO</pkg>
     <pkg>hydroTSM</pkg>
     <pkg>Interpol.T</pkg>
+    <pkg>ipred</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>
     <pkg priority="core">labdsv</pkg>
@@ -479,6 +482,7 @@
     <pkg>lme4</pkg>
     <pkg priority="core">MASS</pkg>
     <pkg>mclust</pkg>
+    <pkg>mda</pkg>
     <pkg>mefa</pkg>
     <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
@@ -495,7 +499,9 @@
     <pkg>POT</pkg>
     <pkg>pscl</pkg>
     <pkg>prabclus</pkg>
+    <pkg>pvclust</pkg>
     <pkg>qualV</pkg>
+    <pkg>quantreg</pkg>
     <pkg>randomForest</pkg>
     <pkg>rconifers</pkg>
     <pkg>Rcapture</pkg>
@@ -516,6 +522,8 @@
     <pkg>tiger</pkg>
     <pkg>topmodel</pkg>
     <pkg>tseries</pkg>
+    <pkg>unmarked</pkg>
+    <pkg>untb</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>vegetarian</pkg>
     <pkg>VGAM</pkg>
