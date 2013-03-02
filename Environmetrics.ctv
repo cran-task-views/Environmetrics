@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-01-29</version>
+  <version>2013-03-02</version>
   
   <info>
     <h4>Introduction</h4>
@@ -99,9 +99,7 @@
     <ul>
       <li>Principal Components (PCA) is available via the <code>prcomp()</code> function. <code>rda()</code> (in package 
 	<pkg>vegan</pkg>), <code>pca()</code> (in package <pkg>labdsv</pkg>) and <code>dudi.pca()</code> (in
-	package <pkg>ade4</pkg>), provide more ecologically-orientated implementations. A form of PCA used 
-	in the climate and climate change fields is Empirical Orthogonal Function (EOF) analysis and is implemented
-	in <code>EOF()</code> in package <pkg>clim.pact</pkg>.</li>
+	package <pkg>ade4</pkg>), provide more ecologically-orientated implementations.</li>
       <li>Redundancy Analysis (RDA) is available via <code>rda()</code> in <pkg>vegan</pkg> and <code>pcaiv()</code> in 
 	<pkg>ade4</pkg>.</li>
       <li>Canonical Correspondence Analysis (CCA) is implemented in <code>cca()</code> in both <pkg>vegan</pkg> and
@@ -370,8 +368,6 @@
     <h4>Climatology</h4>
     <p>Several packages related to the field of climatology.</p>
     <ul>
-      <li>Package <pkg>clim.pact</pkg> contains R functions for retrieving data, making climate analysis and downscaling
-	of monthly mean and daily mean global climate scenarios.</li>
       <li><pkg>climatol</pkg>provides functions to homogenize (outlier and shifts detection/correction) climatological
 	series and to list climatological summaries of the homogenized results, plus functions to draw wind-rose and Walter 
 	&amp; Lieth diagrams.</li>
@@ -445,7 +441,6 @@
     <pkg>CircStats</pkg>
     <pkg>circular</pkg>
     <pkg>climatol</pkg>
-    <pkg>clim.pact</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
     <pkg>diveMove</pkg>
