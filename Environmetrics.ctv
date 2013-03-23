@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-03-02</version>
+  <version>2013-03-23</version>
   
   <info>
     <h4>Introduction</h4>
@@ -83,6 +83,7 @@
       <li>Package <pkg>ipred</pkg> provides functions for improved predictive models for classification, regression and 
 	survival problems.</li>
     </ul>
+    <p>Graphical tools for the visualization of trees are available in package <pkg>maptree</pkg>.</p>
     <p>Packages <pkg>mda</pkg> and <pkg>earth</pkg> implement Multivariate Adaptive Regression Splines (MARS), a technique
       which provides a more flexible, tree-based approach to regression than the piecewise constant functions used in 
       regression trees.</p>
@@ -127,6 +128,9 @@
         estimation alternative to CCA fit by Quadratic Reduced Rank Vector GLMs. Constrained Additive Ordination (CAO) is a 
         flexible alternative to CQO which uses Quadratic Reduced Rank Vector GAMs. These methods and more are provided in 
         Thomas Yee's <pkg>VGAM</pkg> package.</li>
+      <li>Fuzzy set ordination (FSO), an alternative to CCA/RDA and CAP, is available in package <pkg>fso</pkg>. <pkg>fso</pkg>
+        complements a recent paper on fuzzy sets in the journal <em>Ecology</em> by Dave Roberts (2008, Statistical analysis of 
+        multidimensional fuzzy set ordinations. <em>Ecology</em> <strong>89(5)</strong>, 1246-1260).</li>
       <li>See also the <view>Multivariate</view> task view for complementary information.</li>
     </ul>
     
@@ -199,6 +203,11 @@
       <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
 	under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	curves.</li>
+      <li><pkg>primer</pkg> is a support software for Stevens 
+	(<a href="http://www.springer.com/life+sci/ecology/book/978-0-387-89881-0">2009, <em>A Primer of Ecology with R</em>, 
+	  Springer</a>). The package provides a variety of functions for modeling ecological data and basic theoretical ecology, 
+	including functions related to demographic matrix models, metapopulation and source-sink models, host-parasitoid and 
+	disease models, multiple basins of attraction, the storage effect, neutral theory, and diversity partitioning.</li>
       <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
       <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in 
 	Koleff et al (2003; <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of 
@@ -270,6 +279,8 @@
       <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
 	relationships.</li>
       <li>Detecting change points in time series data --- see <pkg>segmented</pkg> <a href="#changepoints">above</a>.</li>
+      <li>The <pkg>surveillance</pkg> package implements statistical methods for the modeling of and change-point detection
+	   in time series of counts, proportions and categorical data. Focus is on outbreak detection in count data time series.</li>
       <li>Package <pkg>dynlm</pkg> provides a convenient interface to fitting time series regressions via ordinary least 
 	squares</li>
       <li>Package <pkg>dyn</pkg> provides a different approach to that of <pkg>dynlm</pkg>, which allows time series data to 
@@ -360,6 +371,8 @@
 	characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
       <li>Package <pkg>oce</pkg> supports the analysis of Oceanographic data, including ADP measurements, CTD measurements,
 	sectional data, sea-level time series, and coastline files.</li>
+      <li>The <pkg>nsRFA</pkg> package provides collection of statistical tools for objective (non-supervised) applications
+        of the Regional Frequency Analysis methods in hydrology.</li>
       <li>The <pkg>boussinesq</pkg> package is a collection of functions implementing the one-dimensional Boussinesq Equation
 	(ground-water).</li>
     </ul>
@@ -371,6 +384,7 @@
       <li><pkg>climatol</pkg>provides functions to homogenize (outlier and shifts detection/correction) climatological
 	series and to list climatological summaries of the homogenized results, plus functions to draw wind-rose and Walter 
 	&amp; Lieth diagrams.</li>
+      <li><pkg>seas</pkg> implements a number of functions for analysis and graphics of seasonal data.</li>
       <li><pkg>RMAWGEN</pkg> is set of S3 and S4 functions for spatial multi-site stochastic generation of daily
 	time series of temperature and precipitation making use of Vector Autoregressive Models.</li>
       <li><pkg>Interpol.T</pkg> makes hourly interpolation of daily minimum and maximum temperature series for example
@@ -462,6 +476,7 @@
     <pkg>FD</pkg>
     <pkg>flexmix</pkg>
     <pkg>forecast</pkg>
+    <pkg>fso</pkg>
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
     <pkg>hydroGOF</pkg>
@@ -475,6 +490,7 @@
     <pkg priority="core">labdsv</pkg>
     <pkg>latticeDensity</pkg>
     <pkg>lme4</pkg>
+    <pkg>maptree</pkg>
     <pkg priority="core">MASS</pkg>
     <pkg>mclust</pkg>
     <pkg>mda</pkg>
@@ -484,6 +500,7 @@
     <pkg>mra</pkg>
     <pkg priority="core">mvpart</pkg>
     <pkg>nlme</pkg>
+    <pkg>nsRFA</pkg>
     <pkg>oce</pkg>
     <pkg>openair</pkg>
     <pkg>ouch</pkg>
@@ -494,6 +511,7 @@
     <pkg>POT</pkg>
     <pkg>pscl</pkg>
     <pkg>prabclus</pkg>
+    <pkg>primer</pkg>
     <pkg>pvclust</pkg>
     <pkg>qualV</pkg>
     <pkg>quantreg</pkg>
@@ -504,6 +522,7 @@
     <pkg>rpart</pkg>
     <pkg>RMAWGEN</pkg>
     <pkg>seacarb</pkg>
+    <pkg>seas</pkg>
     <pkg>secr</pkg>
     <pkg>segmented</pkg>
     <pkg>sensitivity</pkg>
@@ -514,6 +533,7 @@
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
+    <pkg>surveillance</pkg>
     <pkg>tiger</pkg>
     <pkg>topmodel</pkg>
     <pkg>tseries</pkg>
