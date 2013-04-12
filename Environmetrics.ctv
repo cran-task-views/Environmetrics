@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-03-23</version>
+  <version>2013-04-12</version>
   
   <info>
     <h4>Introduction</h4>
@@ -256,9 +256,6 @@
     <h5>Modelling population growth rates:</h5>
     <ul>
       <li>Package <pkg>popbio</pkg> can be used to construct and analyse age- or stage-specific matrix population models.</li>
-      <li>The <pkg>rconifers</pkg> package contains functions for simulating future forest conditions under different silvicultural
-	regimes using the <a href="http://www.fs.fed.us/psw/programs/ecology_of_western_forests/projects/conifers/">CONIFERS</a>
-	growth model.</li>
     </ul>
     
     <h4>Environmental time series</h4>
@@ -516,7 +513,6 @@
     <pkg>qualV</pkg>
     <pkg>quantreg</pkg>
     <pkg>randomForest</pkg>
-    <pkg>rconifers</pkg>
     <pkg>Rcapture</pkg>
     <pkg>rioja</pkg>
     <pkg>rpart</pkg>
