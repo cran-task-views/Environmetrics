@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-04-12</version>
+  <version>2013-07-11</version>
   
   <info>
     <h4>Introduction</h4>
@@ -15,10 +15,10 @@
       analysis of environmental and ecological data, a <a href="http://www.jstatsoft.org/v22/" >special volume</a> of 
       the <em>Journal of Statistical Software</em> was produced in 2007.</p>
     <p>Those useRs interested in environmetrics should consult the <view>Spatial</view> view. 
-      Complementary information is also available in the <view>Multivariate</view>, <view>Phylogenetics</view> and 
-      <view>Cluster</view> task views.</p>
+      Complementary information is also available in the <view>Multivariate</view>, <view>Phylogenetics</view>, 
+      <view>Cluster</view>, and <view>SpatioTemporal</view> task views.</p>
     <p>If you have any comments or suggestions for additions or improvements, then please contact the
-      <a href="mailto:gavin_DOT_simpson_AT_ucl_DOT_ac_DOT_uk?subject=Environmetrics%20Task%20View">maintainer</a>.</p>
+      <a href="mailto:ucfagls_AT_gmail_DOT_com?subject=Environmetrics%20Task%20View">maintainer</a>.</p>
     <p>A list of available packages and functions is presented below, grouped by analysis type.</p>
     
     <h4>Modelling species responses and other data</h4>
@@ -372,6 +372,8 @@
         of the Regional Frequency Analysis methods in hydrology.</li>
       <li>The <pkg>boussinesq</pkg> package is a collection of functions implementing the one-dimensional Boussinesq Equation
 	(ground-water).</li>
+      <li><pkg>rtop</pkg> is a package for geostatistical interpolation of data with irregular spatial support such as runoff
+        related data or data from administrative units.</li>
     </ul>
     
     <a id="climatology"></a>
@@ -516,6 +518,7 @@
     <pkg>Rcapture</pkg>
     <pkg>rioja</pkg>
     <pkg>rpart</pkg>
+    <pkg>rtop</pkg>
     <pkg>RMAWGEN</pkg>
     <pkg>seacarb</pkg>
     <pkg>seas</pkg>
