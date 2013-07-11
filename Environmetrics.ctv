@@ -439,6 +439,10 @@
       <li>Functions to analyze coherence, boundary clumping, and turnover following the pattern-based metacommunity analysis of
       <a href="http://dx.doi.org/10.1034/j.1600-0706.2002.970210.x">Leibold and Mikkelson (2002)</a> are provided in the
       <pkg>metacom</pkg> package.</li>
+      <li>Growth curve estimation via noncrossing and nonparametric regression quantiles is implemented in package
+        <pkg>quantregGrowth</pkg>. A supporting paper is <a href="http://dx.doi.org/10.1007/s10651-012-0232-1">Muggeo et al
+        (2013)</a>.
+      </li>
     </ul>
   </info>
   <packagelist>
@@ -514,6 +518,7 @@
     <pkg>pvclust</pkg>
     <pkg>qualV</pkg>
     <pkg>quantreg</pkg>
+    <pkg>quantregGrowth</pkg>
     <pkg>randomForest</pkg>
     <pkg>Rcapture</pkg>
     <pkg>rioja</pkg>
