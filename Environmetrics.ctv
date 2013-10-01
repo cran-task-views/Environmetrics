@@ -253,6 +253,9 @@
 	survival and population size with Cormack-Jolly-Seber and Jolly-Seber open-population models.</li>
     </ul>
     <p>Packages <pkg>mra</pkg>, <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
+    
+    <p>See also the <view>SpatioTemporal</view> task view for analysis of animal tracking data under <em>Moving objects, trajectories</em>.</p>
+
     <h5>Modelling population growth rates:</h5>
     <ul>
       <li>Package <pkg>popbio</pkg> can be used to construct and analyse age- or stage-specific matrix population models.</li>
