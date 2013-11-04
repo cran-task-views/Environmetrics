@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-07-11</version>
+  <version>2013-11-04</version>
   
   <info>
     <h4>Introduction</h4>
@@ -383,9 +383,6 @@
     <h4>Climatology</h4>
     <p>Several packages related to the field of climatology.</p>
     <ul>
-      <li><pkg>climatol</pkg>provides functions to homogenize (outlier and shifts detection/correction) climatological
-	series and to list climatological summaries of the homogenized results, plus functions to draw wind-rose and Walter 
-	&amp; Lieth diagrams.</li>
       <li><pkg>seas</pkg> implements a number of functions for analysis and graphics of seasonal data.</li>
       <li><pkg>RMAWGEN</pkg> is set of S3 and S4 functions for spatial multi-site stochastic generation of daily
 	time series of temperature and precipitation making use of Vector Autoregressive Models.</li>
@@ -460,7 +457,6 @@
     <pkg>boussinesq</pkg>
     <pkg>CircStats</pkg>
     <pkg>circular</pkg>
-    <pkg>climatol</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
     <pkg>diveMove</pkg>
