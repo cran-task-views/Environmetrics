@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-11-04</version>
+  <version>2013-12-12</version>
   
   <info>
     <h4>Introduction</h4>
@@ -429,6 +429,8 @@
       <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
+      <li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
+	diagnostic plots.</li>
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
       <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
       biogeography.</li>
@@ -508,6 +510,7 @@
     <pkg>ouch</pkg>
     <pkg>party</pkg>
     <pkg>pastecs</pkg>
+    <pkg>pcurve</pkg>
     <pkg>pgirmess</pkg>
     <pkg>popbio</pkg>
     <pkg>POT</pkg>
