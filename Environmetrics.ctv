@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2013-12-12</version>
+  <version>2014-01-05</version>
   
   <info>
     <h4>Introduction</h4>
@@ -249,8 +249,11 @@
 	can arise from survey methods such temporally replicated counts, removal sampling, double-observer sampling, and distance sampling.
 	Parameters governing the state and observation processes can be modeled as functions of covariates.</li>
       <li>Package RMark (not on CRAN) provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
-	models (see <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a>). RMark also includes native R functions for estimating
-	survival and population size with Cormack-Jolly-Seber and Jolly-Seber open-population models.</li>
+      models (see <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a>). RMark also includes native R functions for estimating
+      survival and population size with Cormack-Jolly-Seber and Jolly-Seber open-population models.</li>
+      <li><pkg>mrds</pkg> fits detection functions to point and line transect distance sampling survey data (for both single and double observer surveys). Abundance can be estimated using Horvitz-Thompson-type estimators.</li>
+      <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
+      <li><pkg>dsm</pkg> fits <a href="http://doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
     </ul>
     <p>Packages <pkg>mra</pkg>, <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
     
@@ -461,8 +464,10 @@
     <pkg>circular</pkg>
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
+    <pkg>Distance</pkg>
     <pkg>diveMove</pkg>
     <pkg>dse</pkg>
+    <pkg>dsm</pkg>
     <pkg>DSpat</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -502,6 +507,7 @@
     <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
     <pkg>mra</pkg>
+    <pkg>mrds</pkg>
     <pkg priority="core">mvpart</pkg>
     <pkg>nlme</pkg>
     <pkg>nsRFA</pkg>
