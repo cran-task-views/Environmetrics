@@ -20,6 +20,12 @@
     <p>If you have any comments or suggestions for additions or improvements, then please contact the
       <a href="mailto:ucfagls_AT_gmail_DOT_com?subject=Environmetrics%20Task%20View">maintainer</a>.</p>
     <p>A list of available packages and functions is presented below, grouped by analysis type.</p>
+  
+    <h4>General packages</h4>
+    <p>These packages are general, having wide applicability to the environmetrics field.</p>
+    <ul>
+      <li>Package <pkg>EnvStats</pkg> is the successor to the S-PLUS module of the same name, both by Steven Millard. A <a href="http://doi.org/10.1007/978-1-4614-8456-1">user guide in the form of a book</a> has recently be released.</li>
+    </ul>
     
     <h4>Modelling species responses and other data</h4>
     <p>Analysing species response curves or modeling other data often involves the fitting of standard statistical models 
@@ -371,13 +377,13 @@
       <li><pkg>wasim</pkg> provides tools for data processing and visualisation of results of the hydrological model WASIM-ETH</li>
       <li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
       <li>Stephen Sefick's <pkg>StreamMetabolism</pkg> package contains function for calculating stream metabolism 
-	characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
+      characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
       <li>Package <pkg>oce</pkg> supports the analysis of Oceanographic data, including ADP measurements, CTD measurements,
-	sectional data, sea-level time series, and coastline files.</li>
+      sectional data, sea-level time series, and coastline files.</li>
       <li>The <pkg>nsRFA</pkg> package provides collection of statistical tools for objective (non-supervised) applications
         of the Regional Frequency Analysis methods in hydrology.</li>
       <li>The <pkg>boussinesq</pkg> package is a collection of functions implementing the one-dimensional Boussinesq Equation
-	(ground-water).</li>
+      (ground-water).</li>
       <li><pkg>rtop</pkg> is a package for geostatistical interpolation of data with irregular spatial support such as runoff
         related data or data from administrative units.</li>
     </ul>
@@ -472,6 +478,7 @@
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
     <pkg>EcoHydRology</pkg>
+    <pkg>EnvStats</pkg>
     <pkg>e1071</pkg>
     <pkg>earth</pkg>
     <pkg>eco</pkg>
