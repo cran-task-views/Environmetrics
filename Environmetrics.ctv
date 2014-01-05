@@ -24,7 +24,7 @@
     <h4>General packages</h4>
     <p>These packages are general, having wide applicability to the environmetrics field.</p>
     <ul>
-      <li>Package <pkg>EnvStats</pkg> is the successor to the S-PLUS module of the same name, both by Steven Millard. A <a href="http://doi.org/10.1007/978-1-4614-8456-1">user guide in the form of a book</a> has recently be released.</li>
+      <li>Package <pkg>EnvStats</pkg> is the successor to the S-PLUS module <em>EnvironmentalStats</em>, both by Steven Millard. A <a href="http://doi.org/10.1007/978-1-4614-8456-1">user guide in the form of a book</a> has recently be released.</li>
     </ul>
     
     <h4>Modelling species responses and other data</h4>
