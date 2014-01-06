@@ -256,6 +256,7 @@
 	Parameters governing the state and observation processes can be modeled as functions of covariates.</li>
       <li>Package <pkg>RMark</pkg> provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
       models. See the <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a> and a <a href="http://www.afsc.noaa.gov/Publications/ProcRpt/PR2013-01.pdf">NOAA report</a> (pdf) for further details.</li>
+      <li>Package <pkg>marked</pkg> provides a framework for handling data and analysis for mark-recapture. <pkg>marked</pkg> can fit Cormack-Jolly-Seber (CJS)and Jolly-Seber (JS) models via maximum likelihood and the CJS model via MCMC. Maximum likelihood estimates for the CJS model can be obtained using R or via a link to the Automatic Differentiation Model Builder software. A <a href="http://doi.org/10.1111/2041-210X.12065">description of the package</a> was published in Methods in Ecology and Evolution.</li>
       <li><pkg>mrds</pkg> fits detection functions to point and line transect distance sampling survey data (for both single and double observer surveys). Abundance can be estimated using Horvitz-Thompson-type estimators.</li>
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
       <li><pkg>dsm</pkg> fits <a href="http://doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
@@ -504,6 +505,7 @@
     <pkg>latticeDensity</pkg>
     <pkg>lme4</pkg>
     <pkg>maptree</pkg>
+    <pkg>marked</pkg>
     <pkg priority="core">MASS</pkg>
     <pkg>mclust</pkg>
     <pkg>mda</pkg>
