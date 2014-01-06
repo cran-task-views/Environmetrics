@@ -254,9 +254,8 @@
 	Examples include single- and multi-season occupancy models, binomial mixture models, and hierarchical distance sampling models. The data
 	can arise from survey methods such temporally replicated counts, removal sampling, double-observer sampling, and distance sampling.
 	Parameters governing the state and observation processes can be modeled as functions of covariates.</li>
-      <li>Package RMark (not on CRAN) provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
-      models (see <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a>). RMark also includes native R functions for estimating
-      survival and population size with Cormack-Jolly-Seber and Jolly-Seber open-population models.</li>
+      <li>Package <pkg>RMark</pkg> provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
+      models. See the <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a> and a <a href="http://www.afsc.noaa.gov/Publications/ProcRpt/PR2013-01.pdf">NOAA report</a> (pdf) for further details.</li>
       <li><pkg>mrds</pkg> fits detection functions to point and line transect distance sampling survey data (for both single and double observer surveys). Abundance can be estimated using Horvitz-Thompson-type estimators.</li>
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
       <li><pkg>dsm</pkg> fits <a href="http://doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
@@ -537,6 +536,7 @@
     <pkg>rioja</pkg>
     <pkg>rpart</pkg>
     <pkg>rtop</pkg>
+    <pkg>RMark</pkg>
     <pkg>RMAWGEN</pkg>
     <pkg>seacarb</pkg>
     <pkg>seas</pkg>
