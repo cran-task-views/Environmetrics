@@ -435,8 +435,6 @@
       <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
-      <li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
-	diagnostic plots.</li>
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
       <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
       biogeography.</li>
@@ -520,7 +518,6 @@
     <pkg>ouch</pkg>
     <pkg>party</pkg>
     <pkg>pastecs</pkg>
-    <pkg>pcurve</pkg>
     <pkg>pgirmess</pkg>
     <pkg>popbio</pkg>
     <pkg>POT</pkg>
