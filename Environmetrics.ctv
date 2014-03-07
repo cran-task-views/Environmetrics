@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2014-01-06</version>
+  <version>2014-03-07</version>
   
   <info>
     <h4>Introduction</h4>
@@ -433,7 +433,6 @@
       <a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
       <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
       <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
-      <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
       <li>Package <pkg>pcurve</pkg> fits a principal curve to a numeric multivariate dataset in arbitrary dimensions. Produces 
@@ -479,7 +478,6 @@
     <pkg>EnvStats</pkg>
     <pkg>e1071</pkg>
     <pkg>earth</pkg>
-    <pkg>eco</pkg>
     <pkg>ecodist</pkg>
     <pkg>equivalence</pkg>
     <pkg>evd</pkg>
