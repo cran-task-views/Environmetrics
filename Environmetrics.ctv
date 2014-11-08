@@ -544,6 +544,7 @@
     <pkg>sensitivity</pkg>
     <pkg>simba</pkg>
     <pkg>simecol</pkg>
+    <pkg>siplab</pkg>
     <pkg>soiltexture</pkg>
     <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
