@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2014-05-31</version>
+  <version>2014-12-13</version>
   
   <info>
     <h4>Introduction</h4>
@@ -79,7 +79,6 @@
     </ul>
     <p>Multivariate trees are available in</p>
     <ul>
-      <li>package <pkg>mvpart</pkg>, which provides an adaptation of <pkg>rpart</pkg> for multivariate responses.</li>
       <li>package <pkg>party</pkg> can also handle multivariate responses.</li>
     </ul>
     <p>Ensemble techniques for trees:</p>
@@ -513,7 +512,6 @@
     <pkg priority="core">mgcv</pkg>
     <pkg>mra</pkg>
     <pkg>mrds</pkg>
-    <pkg priority="core">mvpart</pkg>
     <pkg>nlme</pkg>
     <pkg>nsRFA</pkg>
     <pkg>oce</pkg>
