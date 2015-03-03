@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2014-12-13</version>
+  <version>2015-03-03</version>
   
   <info>
     <h4>Introduction</h4>
@@ -236,13 +236,10 @@
     <ul>
       <li><pkg>Rcapture</pkg> fits loglinear models to estimate population size and survival rate from capture-recapture data as 
 	described by <a href="http://www.jstatsoft.org/v19/i05">Baillargeon and Rivest (2007)</a>.</li>
-      <li><pkg>mra</pkg> estimates survival by fitting the Cormack-Jolly-Seber open population model, using a flexible formula-based
-	approach for covariates (see also RMark). <pkg>mra</pkg> also fits Huggin's closed population model and computes Horvitz-Thompson
-	estimates of open-population size from CJS models.</li>
       <li><pkg>secr</pkg> estimates population density given spatially explicit capture-recapture data from traps, passive DNA 
 	sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
-	specified via formulae, as in <pkg>mra</pkg>.</li>
+	specified via formulae.</li>
       <li><pkg>SPACECAP</pkg> provides a graphical interface for fitting a spatially explicit capture-recapture model to photographic
 	'capture' data by the Bayesian method described in Royle et al. (<a href="http://www.esajournals.org/doi/abs/10.1890/08-1481.1">2009,
 	  Ecology 90: 3233-3244</a>).</li>
@@ -260,7 +257,7 @@
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
       <li><pkg>dsm</pkg> fits <a href="http://doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
     </ul>
-    <p>Packages <pkg>mra</pkg>, <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
+    <p>Packages <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
     
     <p>See also the <view>SpatioTemporal</view> task view for analysis of animal tracking data under <em>Moving objects, trajectories</em>.</p>
 
@@ -510,7 +507,6 @@
     <pkg>mefa</pkg>
     <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
-    <pkg>mra</pkg>
     <pkg>mrds</pkg>
     <pkg>nlme</pkg>
     <pkg>nsRFA</pkg>
