@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2015-03-03</version>
+  <version>2015-06-18</version>
   
   <info>
     <h4>Introduction</h4>
@@ -236,6 +236,9 @@
     <ul>
       <li><pkg>Rcapture</pkg> fits loglinear models to estimate population size and survival rate from capture-recapture data as 
 	described by <a href="http://www.jstatsoft.org/v19/i05">Baillargeon and Rivest (2007)</a>.</li>
+      <li><pkg>mra</pkg> estimates survival by fitting the Cormack-Jolly-Seber open population model, using a flexible formula-based
+	approach for covariates (see also RMark). <pkg>mra</pkg> also fits Huggin's closed population model and computes Horvitz-Thompson
+	estimates of open-population size from CJS models.</li>
       <li><pkg>secr</pkg> estimates population density given spatially explicit capture-recapture data from traps, passive DNA 
 	sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
@@ -429,6 +432,7 @@
       <a href="http://CRAN.R-project.org/doc/Rnews">R News</a> 
       <a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf">article</a> on the package for further information.</li>
       <li>Functions for circular statistics are found in <pkg>CircStats</pkg> and <pkg>circular</pkg>.</li>
+      <li>Package <pkg>eco</pkg> fits Bayesian models of ecological inference to 2 x 2 contingency tables.</li>
       <li>Package <pkg>e1071</pkg> provides functions for latent class analysis, short time Fourier transform, fuzzy clustering, 
       support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, and more...</li>
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
@@ -475,6 +479,7 @@
     <pkg>EnvStats</pkg>
     <pkg>e1071</pkg>
     <pkg>earth</pkg>
+    <pkg>eco</pkg>
     <pkg>ecodist</pkg>
     <pkg>equivalence</pkg>
     <pkg>evd</pkg>
@@ -507,6 +512,7 @@
     <pkg>mefa</pkg>
     <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
+    <pkg>mra</pkg>
     <pkg>mrds</pkg>
     <pkg>nlme</pkg>
     <pkg>nsRFA</pkg>
