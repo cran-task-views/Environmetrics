@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2016-09-09</version>
+  <version>2016-12-15</version>
   
   <info>
     <h4>Introduction</h4>
@@ -271,8 +271,8 @@
     
     <h4>Environmental time series</h4>
     <ul>
-      <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg>,
-	<pkg>zoo</pkg> and <pkg>its</pkg> below for alternatives.</li>
+      <li>Time series objects in R are created using the <code>ts()</code> function, though see <pkg>tseries</pkg> or
+	<pkg>zoo</pkg> below for alternatives.</li>
       <li>Classical time series functionality is provided by the <code>ar()</code>, and <code>arima()</code> functions in 
 	standard package stats for autoregressive (AR), moving average (MA), autoregressive moving  average (ARMA) and 
 	integrated ARMA (ARIMA) models.</li>
@@ -281,7 +281,7 @@
       <li>The <pkg>dse</pkg> package provide a variety of more advanced estimation methods 
 	and multivariate time series analysis.</li>
       <li>Packages <pkg>tseries</pkg> and <pkg>zoo</pkg> provide general handling and analysis of time series data.</li>
-      <li>Irregular time series can be handled using packages <pkg>zoo</pkg> and <pkg>its</pkg>, as well as by
+      <li>Irregular time series can be handled using package <pkg>zoo</pkg> as well as by
 	<code>irts()</code> in package <pkg>tseries</pkg>.</li>
       <li><pkg>pastecs</pkg> provides functions specifically tailored for the analysis of space-time ecological series.</li>
       <li><pkg>strucchange</pkg> allows for testing, dating and monitoring of structural change in linear regression 
@@ -497,7 +497,6 @@
     <pkg>Interpol.T</pkg>
     <pkg>ipred</pkg>
     <pkg>ismev</pkg>
-    <pkg>its</pkg>
     <pkg priority="core">labdsv</pkg>
     <pkg>latticeDensity</pkg>
     <pkg>lme4</pkg>
