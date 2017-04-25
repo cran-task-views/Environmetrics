@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2016-12-15</version>
+  <version>2017-04-25</version>
   
   <info>
     <h4>Introduction</h4>
@@ -236,9 +236,6 @@
     <ul>
       <li><pkg>Rcapture</pkg> fits loglinear models to estimate population size and survival rate from capture-recapture data as 
 	described by <a href="http://www.jstatsoft.org/v19/i05">Baillargeon and Rivest (2007)</a>.</li>
-      <li><pkg>mra</pkg> estimates survival by fitting the Cormack-Jolly-Seber open population model, using a flexible formula-based
-	approach for covariates (see also RMark). <pkg>mra</pkg> also fits Huggin's closed population model and computes Horvitz-Thompson
-	estimates of open-population size from CJS models.</li>
       <li><pkg>secr</pkg> estimates population density given spatially explicit capture-recapture data from traps, passive DNA 
 	sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
@@ -508,7 +505,6 @@
     <pkg>mefa</pkg>
     <pkg>metacom</pkg>
     <pkg priority="core">mgcv</pkg>
-    <pkg>mra</pkg>
     <pkg>mrds</pkg>
     <pkg>nlme</pkg>
     <pkg>nsRFA</pkg>
