@@ -302,8 +302,7 @@
     <h4>Spatial data analysis</h4>
     <p>See the <view>Spatial</view> CRAN Task View  for an overview of spatial analysis in R.</p>
     
-    <a id="extremes"></a>
-    <h4>Extreme values</h4>
+    <h4><a id="extremes">Extreme values</a></h4>
     <p><pkg>ismev</pkg> provides functions for models for extreme value statistics and is support software for Coles (2001)
       <em>An Introduction to Statistical Modelling of Extreme Values</em>, Springer, New York. Other packages for extreme value
       theory include:</p>
@@ -379,8 +378,7 @@
         related data or data from administrative units.</li>
     </ul>
     
-    <a id="climatology"></a>
-    <h4>Climatology</h4>
+    <h4><a id="climatology">Climatology</a></h4>
     <p>Several packages related to the field of climatology.</p>
     <ul>
       <li><pkg>seas</pkg> implements a number of functions for analysis and graphics of seasonal data.</li>
