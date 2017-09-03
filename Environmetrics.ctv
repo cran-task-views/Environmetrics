@@ -24,7 +24,7 @@
     <h4>General packages</h4>
     <p>These packages are general, having wide applicability to the environmetrics field.</p>
     <ul>
-      <li>Package <pkg>EnvStats</pkg> is the successor to the S-PLUS module <em>EnvironmentalStats</em>, both by Steven Millard. A <a href="http://doi.org/10.1007/978-1-4614-8456-1">user guide in the form of a book</a> has recently be released.</li>
+      <li>Package <pkg>EnvStats</pkg> is the successor to the S-PLUS module <em>EnvironmentalStats</em>, both by Steven Millard. A <a href="https://dx.doi.org/10.1007/978-1-4614-8456-1">user guide in the form of a book</a> has recently be released.</li>
     </ul>
     
     <h4>Modelling species responses and other data</h4>
@@ -193,7 +193,7 @@
         <acronym title="Multi-dimensional Scaling">MDS</acronym> from the distances, and applying maximum likelihood Gaussian 
         mixtures clustering to the MDS points. The maintainer's, Christian Hennig, web site contains several publications in 
         ecological contexts that use <pkg>prabclus</pkg>, especially Hausdorf &amp; Hennig (2007; 
-        <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.0030-1299.2007.15661.x">Oikos 116 (2007), 818-828</a>).</li>
+        <a href="https://dx.doi.org/10.1111/j.0030-1299.2007.15661.x">Oikos 116 (2007), 818-828</a>).</li>
     </ul>
     
     <h4>Ecological theory</h4>
@@ -203,8 +203,8 @@
 	(including the <q>so-called</q>Hill's numbers [e.g. Hill's N<sup>2</sup>] and rarefaction), ranked abundance diagrams, 
 	Fisher's log series, Broken Stick model, Hubbell's abundance model, amongst others.</li>
       <li>The <pkg>vegetarian</pkg> provides the diversity measures suggested by Jost 
-	(<a href="http://dx.doi.org/10.1111/j.2006.0030-1299.14714.x">2006, Oikos 113(2), 363-375</a>; 
-	<a href="http://dx.doi.org/10.1890/06-1736.1">2007, Ecology 88(10), 2427-2439</a>).</li>
+	(<a href="https://dx.doi.org/10.1111/j.2006.0030-1299.14714.x">2006, Oikos 113(2), 363-375</a>; 
+	<a href="https://dx.doi.org/10.1890/06-1736.1">2007, Ecology 88(10), 2427-2439</a>).</li>
       <li><pkg>untb</pkg> provides a collection of utilities for biodiversity data, including the simulation ecological drift 
 	under Hubbell's Unified Neutral Theory of Biodiversity, and the calculation of various diagnostics such as Preston 
 	curves.</li>
@@ -215,15 +215,15 @@
 	disease models, multiple basins of attraction, the storage effect, neutral theory, and diversity partitioning.</li>
       <li>Package <pkg>BiodiversityR</pkg> provides a GUI for biodiversity and community ecology analysis.</li>
       <li>Function <code>betadiver()</code> in <pkg>vegan</pkg> implements all of the diversity indices reviewed in 
-	Koleff et al (2003; <a href="http://www.blackwell-synergy.com/doi/abs/10.1046/j.1365-2656.2003.00710.x">Journal of 
+	Koleff et al (2003; <a href="https://dx.doi.org/10.1046/j.1365-2656.2003.00710.x">Journal of 
 	  Animal Ecology 72(3), 367-382</a>).
 	<code>betadiver()</code> also provides a <code>plot</code> method to produce the co-occurrence frequency triangle plots 
 	of the type found in Koleff et al (2003).</li>
       <li>Function <code>betadisper()</code>, also in <pkg>vegan</pkg>, implements Marti Anderson's distance-based test for 
 	homogeneity of multivariate dispersions (PERMDISP, PERMDISP2), a multivariate analogue of Levene's test (Anderson 
-	2006; <a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 
+	2006; <a href="https://dx.doi.org/10.1111/j.1541-0420.2005.00440.x">Biometrics 62, 
 	  245-253</a>). Anderson et al (2006; 
-	<a href="http://www.blackwell-synergy.com/doi/abs/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
+	<a href="https://dx.doi.org/10.1111/j.1461-0248.2006.00926.x">Ecology Letters 9(6), 683-693</a>) 
 	demonstrate the use of this approach for measuring beta diversity.</li>
       <li>The <pkg>FD</pkg> package computes several measures of functional diversity indices from multiple traits.</li>
     </ul>
@@ -241,10 +241,10 @@
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
 	specified via formulae.</li>
       <li><pkg>SPACECAP</pkg> provides a graphical interface for fitting a spatially explicit capture-recapture model to photographic
-	'capture' data by the Bayesian method described in Royle et al. (<a href="http://www.esajournals.org/doi/abs/10.1890/08-1481.1">2009,
+	'capture' data by the Bayesian method described in Royle et al. (<a href="https://dx.doi.org/10.1890/08-1481.1">2009,
 	  Ecology 90: 3233-3244</a>).</li>
       <li><pkg>DSpat</pkg> provides analyses of line-transect distance sampling data in which the density surface and the detection function 
-	are estimated simultaneously (<a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1541-0420.2009.01265.x/abstract">Johnson
+	are estimated simultaneously (<a href="https://dx.doi.org/10.1111/j.1541-0420.2009.01265.x/abstract">Johnson
 	  et al. 2009</a>).</li>
       <li><pkg>unmarked</pkg> fits hierarchical models of occurrence and abundance to data collected on species subject to imperfect detection.
 	Examples include single- and multi-season occupancy models, binomial mixture models, and hierarchical distance sampling models. The data
@@ -252,10 +252,10 @@
 	Parameters governing the state and observation processes can be modeled as functions of covariates.</li>
       <li>Package <pkg>RMark</pkg> provides a formula-based R interface for the MARK package which fits a wide variety of capture-recapture
       models. See the <a href="http://www.phidot.org/software/mark/rmark/">RMark website</a> and a <a href="http://www.afsc.noaa.gov/Publications/ProcRpt/PR2013-01.pdf">NOAA report</a> (pdf) for further details.</li>
-      <li>Package <pkg>marked</pkg> provides a framework for handling data and analysis for mark-recapture. <pkg>marked</pkg> can fit Cormack-Jolly-Seber (CJS)and Jolly-Seber (JS) models via maximum likelihood and the CJS model via MCMC. Maximum likelihood estimates for the CJS model can be obtained using R or via a link to the Automatic Differentiation Model Builder software. A <a href="http://doi.org/10.1111/2041-210X.12065">description of the package</a> was published in Methods in Ecology and Evolution.</li>
+      <li>Package <pkg>marked</pkg> provides a framework for handling data and analysis for mark-recapture. <pkg>marked</pkg> can fit Cormack-Jolly-Seber (CJS)and Jolly-Seber (JS) models via maximum likelihood and the CJS model via MCMC. Maximum likelihood estimates for the CJS model can be obtained using R or via a link to the Automatic Differentiation Model Builder software. A <a href="https://dx.doi.org/10.1111/2041-210X.12065">description of the package</a> was published in Methods in Ecology and Evolution.</li>
       <li><pkg>mrds</pkg> fits detection functions to point and line transect distance sampling survey data (for both single and double observer surveys). Abundance can be estimated using Horvitz-Thompson-type estimators.</li>
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
-      <li><pkg>dsm</pkg> fits <a href="http://doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
+      <li><pkg>dsm</pkg> fits <a href="https://dx.doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
     </ul>
     <p>Packages <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
     
@@ -435,10 +435,10 @@
       output. <pkg>fast</pkg> is an implementation of the Fourier Amplitude Sensitivity Test (FAST), a method to determine
       global sensitivities of a model on parameter changes with relatively few model runs.</li>
       <li>Functions to analyze coherence, boundary clumping, and turnover following the pattern-based metacommunity analysis of
-      <a href="http://dx.doi.org/10.1034/j.1600-0706.2002.970210.x">Leibold and Mikkelson (2002)</a> are provided in the
+      <a href="https://dx.doi.org/10.1034/j.1600-0706.2002.970210.x">Leibold and Mikkelson (2002)</a> are provided in the
       <pkg>metacom</pkg> package.</li>
       <li>Growth curve estimation via noncrossing and nonparametric regression quantiles is implemented in package
-        <pkg>quantregGrowth</pkg>. A supporting paper is <a href="http://dx.doi.org/10.1007/s10651-012-0232-1">Muggeo et al.
+        <pkg>quantregGrowth</pkg>. A supporting paper is <a href="https://dx.doi.org/10.1007/s10651-012-0232-1">Muggeo et al.
         (2013)</a>.
       </li>
       <li>The <pkg>siplab</pkg> package provides an R platform for experimenting with spatially explicit individual-based vegetation models. A supporting paper is <a href="http://www.mcfns.com/index.php/Journal/article/view/6_36">García, O. (2014)</a>.</li>
