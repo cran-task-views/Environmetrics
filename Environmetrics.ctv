@@ -244,7 +244,7 @@
 	'capture' data by the Bayesian method described in Royle et al. (<a href="https://dx.doi.org/10.1890/08-1481.1">2009,
 	  Ecology 90: 3233-3244</a>).</li>
       <li><pkg>DSpat</pkg> provides analyses of line-transect distance sampling data in which the density surface and the detection function 
-	are estimated simultaneously (<a href="https://dx.doi.org/10.1111/j.1541-0420.2009.01265.x/abstract">Johnson
+	are estimated simultaneously (<a href="https://dx.doi.org/10.1111/j.1541-0420.2009.01265.x">Johnson
 	  et al. 2009</a>).</li>
       <li><pkg>unmarked</pkg> fits hierarchical models of occurrence and abundance to data collected on species subject to imperfect detection.
 	Examples include single- and multi-season occupancy models, binomial mixture models, and hierarchical distance sampling models. The data
@@ -561,7 +561,6 @@
     <rforge>soilwaterptf</rforge>
     <rforge>RHydro</rforge>
     <a href="http://vegan.r-forge.r-project.org/">The vegan development site on R-Forge</a>
-    <a href="http://ecology.msu.montana.edu/labdsv/R/labs/">Dave Roberts' LabDSV pages</a>
     <a href="http://www.stat.auckland.ac.nz/~yee/VGAM/">Thomas Yee's VGAM package for R</a>
     <a href="http://cocorresp.r-forge.r-project.org/">The cocorresp development site on R-Forge</a>
     <a href="http://analogue.r-forge.r-project.org/">The analogue development site on R-Forge</a>        
