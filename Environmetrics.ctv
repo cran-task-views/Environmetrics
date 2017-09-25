@@ -161,7 +161,7 @@
       matrices based on Gower's coefficient for mixed data (mixtures of binary, ordinal/nominal and continuous variables).
       Function <code>daisy()</code> in package <pkg>cluster</pkg> provides a faster implementation of Gower's coefficient for
       mixed-mode data than <code>distance()</code> if a standard dissimilarity matrix is required. Function <code>gowdis()</code>
-      in package <pkg>FD</pkg> also computes Gower's coefficient and impliments extensions to ordinal variables.</p>
+      in package <pkg>FD</pkg> also computes Gower's coefficient and implements extensions to ordinal variables.</p>
     
     <h4>Cluster analysis</h4>
     <p>Cluster analysis aims to identify groups of samples within multivariate data sets. A large range of 
@@ -389,7 +389,7 @@
     </ul>
 
     <h4>Palaeoecology and stratigraphic data</h4>
-    <p>Several packages now provide speciailist functionality for the import, analysis, and plotting of
+    <p>Several packages now provide specialist functionality for the import, analysis, and plotting of
     palaeoecological data.</p>
     <ul>
       <li>Transfer function models including weighted averaging (WA), modern analogue technique (MAT), Locally-weighted WA, &amp;
@@ -399,7 +399,7 @@
       (cornell and Tilia format). In addition, <pkg>rioja</pkg> also allows for import of C2 model files.</li>
       <li>Stratigraphic data plots can be drawn using <code>Stratiplot()</code> function in <pkg>analogue</pkg> and functions
       <code>strat.plot()</code> and <code>strat.plot.simple</code> in the <pkg>rioja</pkg> package.</li>
-      <li><pkg>analogue</pkg> provides extensive support for developing and interpretting MAT transfer function models,
+      <li><pkg>analogue</pkg> provides extensive support for developing and interpreting MAT transfer function models,
       including ROC curve analysis. Summary of stratigraphic data is supported via principal curves in the <code>prcurve()</code>
       function.</li>
       <li>Constrained clustering of stratigraphic data is provided by function <code>chclust()</code> in the form of constrained
