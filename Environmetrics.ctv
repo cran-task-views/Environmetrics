@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2017-04-25</version>
+  <version>2018-04-11</version>
   
   <info>
     <h4>Introduction</h4>
@@ -409,8 +409,6 @@
     <h4>Other packages</h4>
     <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
     <ul>
-      <li><pkg>adehabitat</pkg> complements <pkg>ade4</pkg> and provides a collection of tools for the analysis of habitat 
-      selection by animals.</li>
       <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
       for research on animal diving and movement behaviour.</li>
       <li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
@@ -446,7 +444,6 @@
   </info>
   <packagelist>
     <pkg priority="core">ade4</pkg>
-    <pkg>adehabitat</pkg>
     <pkg>amap</pkg>
     <pkg>analogue</pkg>
     <pkg>aod</pkg>
