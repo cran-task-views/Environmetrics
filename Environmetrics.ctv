@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2018-04-11</version>
+  <version>2019-01-17</version>
   
   <info>
     <h4>Introduction</h4>
@@ -255,7 +255,7 @@
       <li>Package <pkg>marked</pkg> provides a framework for handling data and analysis for mark-recapture. <pkg>marked</pkg> can fit Cormack-Jolly-Seber (CJS)and Jolly-Seber (JS) models via maximum likelihood and the CJS model via MCMC. Maximum likelihood estimates for the CJS model can be obtained using R or via a link to the Automatic Differentiation Model Builder software. A <a href="https://dx.doi.org/10.1111/2041-210X.12065">description of the package</a> was published in Methods in Ecology and Evolution.</li>
       <li><pkg>mrds</pkg> fits detection functions to point and line transect distance sampling survey data (for both single and double observer surveys). Abundance can be estimated using Horvitz-Thompson-type estimators.</li>
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
-      <li><pkg>dsm</pkg> fits <a href="https://dx.doi.org/10.1111/2041-210X.12105">density surface models</a> to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
+      <li>Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
     </ul>
     <p>Packages <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
     
@@ -459,7 +459,6 @@
     <pkg>Distance</pkg>
     <pkg>diveMove</pkg>
     <pkg>dse</pkg>
-    <pkg>dsm</pkg>
     <pkg>DSpat</pkg>
     <pkg>dyn</pkg>
     <pkg>dynatopmodel</pkg>
