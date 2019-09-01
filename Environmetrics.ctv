@@ -235,9 +235,6 @@
 	sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
 	specified via formulae.</li>
-      <li><pkg>SPACECAP</pkg> provides a graphical interface for fitting a spatially explicit capture-recapture model to photographic
-	'capture' data by the Bayesian method described in Royle et al. (<a href="https://dx.doi.org/10.1890/08-1481.1">2009,
-	  Ecology 90: 3233-3244</a>).</li>
       <li><pkg>DSpat</pkg> provides analyses of line-transect distance sampling data in which the density surface and the detection function 
 	are estimated simultaneously (<a href="https://dx.doi.org/10.1111/j.1541-0420.2009.01265.x">Johnson
 	  et al. 2009</a>).</li>
@@ -520,7 +517,6 @@
     <pkg>simecol</pkg>
     <pkg>siplab</pkg>
     <pkg>soiltexture</pkg>
-    <pkg>SPACECAP</pkg>
     <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
