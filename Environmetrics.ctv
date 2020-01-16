@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2019-09-01</version>
+  <version>2020-01-16</version>
   
   <info>
     <h4>Introduction</h4>
@@ -303,7 +303,6 @@
       <li><pkg>evd</pkg></li>
       <li><pkg>evdbayes</pkg>, which provides a Bayesian approach to extreme value theory</li>
       <li><pkg>extRemes</pkg></li>
-      <li>The <pkg>SpatialExtremes</pkg> provides several approaches for modelling spatial extreme events.</li>
     </ul>
     
     <h4>Phylogenetics and evolution</h4>
@@ -517,7 +516,6 @@
     <pkg>simecol</pkg>
     <pkg>siplab</pkg>
     <pkg>soiltexture</pkg>
-    <pkg>SpatialExtremes</pkg>
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
     <pkg>surveillance</pkg>
