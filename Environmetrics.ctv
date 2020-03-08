@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2020-02-20</version>
+  <version>2020-03-09</version>
   
   <info>
     <h4>Introduction</h4>
@@ -396,9 +396,6 @@
     <ul>
       <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
       for research on animal diving and movement behaviour.</li>
-      <li><pkg>latticeDensity</pkg> implements methods for density estimation and nonparametric regression on irregular regions.
-      A useful alternative to kernel density estimation for e.g. estimating animal densities and home ranges in regions with
-      irregular boundaries or holes.</li>
       <li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
       tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
       contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
@@ -473,7 +470,6 @@
     <pkg>ipred</pkg>
     <pkg>ismev</pkg>
     <pkg priority="core">labdsv</pkg>
-    <pkg>latticeDensity</pkg>
     <pkg>lme4</pkg>
     <pkg>maptree</pkg>
     <pkg>marked</pkg>
