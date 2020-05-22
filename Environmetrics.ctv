@@ -60,9 +60,7 @@
 	</ul>
       </li>
       <li id="changepoints">Detecting change points and structural changes in parametric models is well catered for in the 
-	<pkg>segmented</pkg> package and the <pkg>strucchange</pkg> package respectively. <pkg>segmented</pkg> has recently been 
-	the subject of an R News article (<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2008-1.pdf" 
-					     title="Link to segment article in R News">R News, volume 8 issue 1</a>).</li>
+	<pkg>segmented</pkg> package and the <pkg>strucchange</pkg> package respectively. <pkg>segmented</pkg> is discussed in an R News article (<a href="http://CRAN.R-project.org/doc/Rnews/Rnews_2008-1.pdf" title="Link to segment article in R News">R News, volume 8 issue 1</a>).</li>
     </ul>
     
     <h4>Tree-based models</h4>
