@@ -414,10 +414,10 @@
       <a href="https://dx.doi.org/10.1034/j.1600-0706.2002.970210.x">Leibold and Mikkelson (2002)</a> are provided in the
       <pkg>metacom</pkg> package.</li>
       <li>Growth curve estimation via noncrossing and nonparametric regression quantiles is implemented in package
-        <pkg>quantregGrowth</pkg>. A supporting paper is <a href="https://dx.doi.org/10.1007/s10651-012-0232-1">Muggeo et al.
-        (2013)</a>.
+        <pkg>quantregGrowth</pkg>. A supporting paper is <a href="https://dx.doi.org/10.1007/s10651-012-0232-1">Muggeo et al. (2013)</a>.
       </li>
       <li>The <pkg>siplab</pkg> package provides an R platform for experimenting with spatially explicit individual-based vegetation models. A supporting paper is <a href="http://www.mcfns.com/index.php/Journal/article/view/6_36">García, O. (2014)</a>.</li>
+      <li><pkg>PMCMRplus</pkg> provides parametric and non-parametric many-to-one and all-pairs multiple comparison procedures for continuous or at least interval based variables. The package provides implementations of a wide range of tests involving pairwise multiple comparisons.</li>
     </ul>
   </info>
   <packagelist>
@@ -484,6 +484,7 @@
     <pkg>party</pkg>
     <pkg>pastecs</pkg>
     <pkg>pgirmess</pkg>
+    <pkg>PMCMRplus</pkg>
     <pkg>popbio</pkg>
     <pkg>pscl</pkg>
     <pkg>prabclus</pkg>
