@@ -383,7 +383,7 @@
       <li>Transfer function models including weighted averaging (WA), modern analogue technique (MAT), Locally-weighted WA, &amp;
       maximum likelihood (aka Gaussian logistic) regression (GLR) are provided by the <pkg>rioja</pkg> and <pkg>analogue</pkg> packages.</li>
       <li>Import of common, legacy, palaeodata formats is provided by package <pkg>vegan</pkg> (cornell format).</li>
-      <li>Stratigraphic data plots can be drawn using <code>Stratiplot()</code> function in <pkg>analogue</pkg> and functions <code>strat.plot()</code> and <code>strat.plot.simple</code> in the <pkg>rioja</pkg> package. Also see the <github>paleolimbot/tidypaleo</github> package, which provides tools to produce straigraphic plots using <code>ggplot()</code>.</li>
+      <li>Stratigraphic data plots can be drawn using <code>Stratiplot()</code> function in <pkg>analogue</pkg> and functions <code>strat.plot()</code> and <code>strat.plot.simple</code> in the <pkg>rioja</pkg> package. Also see the <github>paleolimbot/tidypaleo</github> package, which provides tools to produce straigraphic plots using <code>ggplot()</code>. A <a href="https://fishandwhistle.net/post/2018/stratigraphic-diagrams-with-tidypaleo-ggplot2/">blog post</a> by the maintainer of the <github>paleolimbot/tidypaleo</github> package, Dewey Dunnington, shows how to use the package to create straigraphic plots.</li>
       <li><pkg>analogue</pkg> provides extensive support for developing and interpreting MAT transfer function models, including ROC curve analysis. Summary of stratigraphic data is supported via principal curves in the <code>prcurve()</code>
       function.</li>
     </ul>
