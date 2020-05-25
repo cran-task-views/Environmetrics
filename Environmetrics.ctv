@@ -511,7 +511,6 @@
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
     <pkg>surveillance</pkg>
-    <github>paleolimbot/tidypaleo</github>
     <pkg>tiger</pkg>
     <pkg>topmodel</pkg>
     <pkg>tseries</pkg>
@@ -528,6 +527,7 @@
     <view>Multivariate</view>
     <view>Cluster</view>
     <view>Phylogenetics</view>
+    <github>paleolimbot/tidypaleo</github>
     <rforge>soilwaterfun</rforge>
     <rforge>soilwaterptf</rforge>
     <rforge>RHydro</rforge>
