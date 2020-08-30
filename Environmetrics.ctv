@@ -352,7 +352,6 @@
 	TOPMODEL, which is based on the 1995 FORTRAN version by Keith Beven. New functionality is being developed as part of
 	the <rforge>RHydro</rforge> package on R-Forge.</li>
       <li><pkg>dynatopmodel</pkg> is a native R implementation and enhancement of the Dynamic TOPMODEL, Beven and Freers' (2001) extension to the semi-distributed hydrological model TOPMODEL (Beven and Kirkby, 1979).</li>
-      <li><pkg>wasim</pkg> provides tools for data processing and visualisation of results of the hydrological model WASIM-ETH</li>
       <li>Package <pkg>seacarb</pkg> provides functions for calculating parameters of the seawater carbonate system.</li>
       <li>Stephen Sefick's <pkg>StreamMetabolism</pkg> package contains function for calculating stream metabolism 
       characteristics, such as GPP, NDM, and R, from single station diurnal Oxygen curves.</li>
@@ -517,7 +516,6 @@
     <pkg priority="core">vegan</pkg>
     <pkg>vegetarian</pkg>
     <pkg>VGAM</pkg>
-    <pkg>wasim</pkg>
     <pkg>zoo</pkg>
   </packagelist>
   <links>
