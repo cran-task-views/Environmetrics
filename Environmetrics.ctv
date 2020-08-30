@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2020-05-22</version>
+  <version>2020-08-30</version>
   
   <info>
     <h4>Introduction</h4>
@@ -406,10 +406,9 @@
       <li>Package <pkg>pgirmess</pkg> provides a suite of miscellaneous functions for data analysis in ecology.</li>
       <li><pkg>mefa</pkg> provides functions for handling and reporting on multivariate count data in ecology and 
       biogeography.</li>
-      <li>Sensitivity analysis of models is provided by packages <pkg>sensitivity</pkg> and <pkg>fast</pkg>.
+      <li>Sensitivity analysis of models is provided by package <pkg>sensitivity</pkg>.
       <pkg>sensitivity</pkg> contains a collection of functions for factor screening and global sensitivity analysis of model
-      output. <pkg>fast</pkg> is an implementation of the Fourier Amplitude Sensitivity Test (FAST), a method to determine
-      global sensitivities of a model on parameter changes with relatively few model runs.</li>
+      output.</li>
       <li>Functions to analyze coherence, boundary clumping, and turnover following the pattern-based metacommunity analysis of
       <a href="https://dx.doi.org/10.1034/j.1600-0706.2002.970210.x">Leibold and Mikkelson (2002)</a> are provided in the
       <pkg>metacom</pkg> package.</li>
@@ -452,7 +451,6 @@
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
-    <pkg>fast</pkg>
     <pkg>FD</pkg>
     <pkg>flexmix</pkg>
     <pkg>forecast</pkg>
