@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2020-08-30</version>
+  <version>2020-11-22</version>
   
   <info>
     <h4>Introduction</h4>
@@ -320,8 +320,6 @@
       <li><pkg>soiltexture</pkg> provides functions for soil texture plot, classification and transformation.</li>
       <li><pkg>aqp</pkg> contains a collection of algorithms related to modeling of soil resources, soil classification,
 	soil profile aggregation, and visualization.</li>
-      <li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
-	method.</li>
       <li>The Soil Water project on r-forge.r-project.net provides packages providing soil water retention functions, 
 	soil hydraulic conductivity functions and pedotransfer functions to estimate their parameter from easily available soil
 	properties. Two packages form the project:
@@ -337,8 +335,6 @@
       oceanography. Also see the <a href="#extremes">Extreme Value</a> and the <a href="#climatology">Climatology</a> sections
       for related packages.</p>
     <ul>
-      <li>Package <pkg>HydroMe</pkg> estimates the parameters in infiltration and water retention models by curve-fitting
-	method.</li>
       <li><pkg>hydroTSM</pkg> is a package for management, analysis, interpolation and plotting of time series used in hydrology
 	and related environmental sciences.</li>
       <li><pkg>hydroGOF</pkg> is a package implementing both statistical and graphical goodness-of-fit measures between
@@ -457,7 +453,6 @@
     <pkg>gam</pkg>
     <pkg>gamair</pkg>
     <pkg>hydroGOF</pkg>
-    <pkg>HydroMe</pkg>
     <pkg>hydroTSM</pkg>
     <pkg>Interpol.T</pkg>
     <pkg>ipred</pkg>
