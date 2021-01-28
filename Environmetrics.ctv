@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2020-11-22</version>
+  <version>2021-01-28</version>
   
   <info>
     <h4>Introduction</h4>
@@ -386,8 +386,6 @@
     <h4>Other packages</h4>
     <p>Several other relevant contributed packages for R are available that do not fit under nice headings.</p>
     <ul>
-      <li><pkg>diveMove</pkg> provides tools to represent, visualize, filter, analyse, and summarize time-depth recorder (TDR) data
-      for research on animal diving and movement behaviour.</li>
       <li>Andrew Robinson's <pkg>equivalence</pkg> package provides some statistical tests and graphics for assessing 
       tests of equivalence. Such tests have similarity as the alternative hypothesis instead of the null. The package 
       contains functions to perform two one-sided t-tests (TOST) and paired t-tests of equivalence.</li>
@@ -429,7 +427,6 @@
     <pkg priority="core">cluster</pkg>
     <pkg>cocorresp</pkg>
     <pkg>Distance</pkg>
-    <pkg>diveMove</pkg>
     <pkg>dse</pkg>
     <pkg>DSpat</pkg>
     <pkg>dsm</pkg>
