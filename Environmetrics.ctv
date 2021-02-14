@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2021-01-28</version>
+  <version>2021-02-14</version>
   
   <info>
     <h4>Introduction</h4>
@@ -233,9 +233,6 @@
 	sampling, automatic cameras, sound recorders etc. Models are fitted by maximum likelihood. The detection function may be
 	halfnormal, exponential, cumulative gamma etc. Density surfaces may be fitted. Covariates of density and detection parameters are 
 	specified via formulae.</li>
-      <li><pkg>DSpat</pkg> provides analyses of line-transect distance sampling data in which the density surface and the detection function 
-	are estimated simultaneously (<a href="https://dx.doi.org/10.1111/j.1541-0420.2009.01265.x">Johnson
-	  et al. 2009</a>).</li>
       <li><pkg>unmarked</pkg> fits hierarchical models of occurrence and abundance to data collected on species subject to imperfect detection.
 	Examples include single- and multi-season occupancy models, binomial mixture models, and hierarchical distance sampling models. The data
 	can arise from survey methods such temporally replicated counts, removal sampling, double-observer sampling, and distance sampling.
@@ -247,7 +244,7 @@
       <li><pkg>Distance</pkg> is a simpler interface to <pkg>mrds</pkg> for single observer distance sampling surveys.</li>
       <li><pkg>dsm</pkg> fits density surface models to spatially-referenced distance sampling data. Count data are corrected using detection function models fitted using <pkg>mrds</pkg> or <pkg>Distance</pkg>. Spatial models are constructed as in <pkg>mgcv</pkg>.</li>
     </ul>
-    <p>Packages <pkg>secr</pkg> and <pkg>DSpat</pkg> can also be used to simulate data from their respective models.</p>
+    <p>Packages <pkg>secr</pkg> can also be used to simulate data from the respective models.</p>
     
     <p>See also the <view>SpatioTemporal</view> task view for analysis of animal tracking data under <em>Moving objects, trajectories</em>.</p>
 
@@ -428,7 +425,6 @@
     <pkg>cocorresp</pkg>
     <pkg>Distance</pkg>
     <pkg>dse</pkg>
-    <pkg>DSpat</pkg>
     <pkg>dsm</pkg>
     <pkg>dyn</pkg>
     <pkg>dynatopmodel</pkg>
