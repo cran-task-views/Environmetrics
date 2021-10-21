@@ -3,7 +3,7 @@
   <name>Environmetrics</name>
   <topic>Analysis of Ecological and Environmental Data</topic>
   <maintainer email="ucfagls@gmail.com">Gavin Simpson</maintainer>
-  <version>2021-10-07</version>
+  <version>2021-10-21</version>
   
   <info>
     <h4>Introduction</h4>
@@ -150,8 +150,6 @@
       <li><code>Dist()</code> in <pkg>amap</pkg></li>
       <li><code>distance()</code> in <pkg>ecodist</pkg></li>
       <li>a suite of functions in <pkg>ade4</pkg></li>
-      <li>Package <pkg>simba</pkg> provides functions for the calculation of similarity and multiple plot similarity
-	measures with binary data (for instance presence/absence species data)</li>
     </ul>
     <p>Function <code>distance()</code> in package <pkg>analogue</pkg> can be used to calculate dissimilarity between samples 
       of one matrix and those of a second matrix. The same function can be used to produce pair-wise dissimilarity matrices,
@@ -484,7 +482,6 @@
     <pkg>secr</pkg>
     <pkg>segmented</pkg>
     <pkg>sensitivity</pkg>
-    <pkg>simba</pkg>
     <pkg>simecol</pkg>
     <pkg>siplab</pkg>
     <pkg>soiltexture</pkg>
