@@ -488,7 +488,6 @@
     <pkg>StreamMetabolism</pkg>
     <pkg>strucchange</pkg>
     <pkg>surveillance</pkg>
-    <github>paleolimbot/tidypaleo</github>
     <pkg>tiger</pkg>
     <pkg>topmodel</pkg>
     <pkg>tseries</pkg>
