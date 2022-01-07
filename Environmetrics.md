@@ -3,7 +3,7 @@ name: Environmetrics
 topic: Analysis of Ecological and Environmental Data
 maintainer: Gavin Simpson
 email: ucfagls@gmail.com
-version: 2021-12-27
+version: 2022-01-07
 source: https://github.com/cran-task-views/Environmetrics/
 ---
 
@@ -555,9 +555,6 @@ Several packages related to the field of climatology.
     spatial multi-site stochastic generation of daily time series of
     temperature and precipitation making use of Vector Autoregressive
     Models.
--   `r pkg("Interpol.T")` makes hourly interpolation of
-    daily minimum and maximum temperature series for example when hourly
-    time series must be downscaled from the daily information.
 
 #### Palaeoecology and stratigraphic data
 
