@@ -23,9 +23,8 @@ volume](http://www.jstatsoft.org/v22/) of the *Journal of Statistical
 Software* was produced in 2007.
 
 Those interested in environmetrics should consult the `r view("Spatial")` view.
-Complementary information is also available in the `r view("Multivariate")`,
-`r view("Phylogenetics")`, `r view("Cluster")`, and `r view("SpatioTemporal")`
-task views.
+Complementary information is also available in the `r view("Cluster")`,
+and `r view("SpatioTemporal")` task views.
 
 If you have any comments or suggestions for additions or improvements,
 then please contact the maintainer or submit an issue or pull request
@@ -214,8 +213,6 @@ suits their background.
     in the journal *Ecology* by Dave Roberts (2008, Statistical analysis
     of multidimensional fuzzy set ordinations. *Ecology* **89(5)**,
     1246-1260).
--   See also the `r view("Multivariate")` task view for
-    complementary information.
 
 #### Dissimilarity coefficients
 
@@ -468,6 +465,9 @@ York. Other packages for extreme value theory include
     to extreme value theory
 -   `r pkg("extRemes")`
 
+See also the `r view("ExtremeValue")` task view for further information.
+
+
 #### Phylogenetics and evolution
 
 Packages specifically tailored for the analysis of phylogenetic and
@@ -475,9 +475,6 @@ evolutionary data include:
 
 -   `r pkg("ape")`
 -   `r pkg("ouch")`
-
-The `r view("Phylogenetics")` task view provides more
-detailed coverage of the subject area and related functions within R.
 
 UseRs may also be interested in Paradis (2006) *Analysis of
 Phylogenetics and Evolution with R*, Springer, New York, a book in the
