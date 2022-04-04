@@ -502,7 +502,7 @@ widely-used methods and approaches in pedology.
 
 A growing number of packages are available that implement methods
 specifically related to the fields of hydrology and oceanography. Also
-see the [Extreme Value](#extremes) and the [Climatology](#climatology)
+see the [Extreme Value](#extremes) and the [Climatology](#secclimatology)
 sections for related packages.
 
 -   `r pkg("hydroTSM")` is a package for management,
@@ -545,7 +545,7 @@ sections for related packages.
     interpolation of data with irregular spatial support such as runoff
     related data or data from administrative units.
 
-#### [Climatology]{#climatology}
+#### [Climatology]{#secclimatology}
 
 Several packages related to the field of climatology.
 
