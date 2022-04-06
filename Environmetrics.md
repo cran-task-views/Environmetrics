@@ -442,6 +442,10 @@ tracking data under *Moving objects, trajectories*.
     used methods to analyse, visualize, and interpret wind data. Wind
     resource analyses can subsequently be combined with characteristics
     of wind turbines to estimate the potential energy production.
+-   The `r pkg("Rbeast")` package provides a Bayesian model averaging method 
+    to decompose time series into abrupt changes, trend, and seasonality and 
+    can be used for changepoint detection, time series decomposition, and 
+	nonlinear trend analysis.	
 
 Additionally, a fuller description of available packages for time series
 analysis can be found in the `r view("TimeSeries")` task
