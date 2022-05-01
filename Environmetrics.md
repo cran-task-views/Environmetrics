@@ -490,7 +490,7 @@ widely-used methods and approaches in pedology.
 -   `r pkg("aqp")` contains a collection of algorithms
     related to modelling of soil resources, soil classification, soil
     profile aggregation, and visualization.
--   The Soil Water project on r-forge.r-project.net provides packages
+-   The Soil Water project on R-Forge.R-project.org provides packages
     providing soil water retention functions, soil hydraulic
     conductivity functions and pedotransfer functions to estimate their
     parameter from easily available soil properties. Two packages form
