@@ -498,9 +498,7 @@ widely-used methods and approaches in pedology.
     providing soil water retention functions, soil hydraulic
     conductivity functions and pedotransfer functions to estimate their
     parameter from easily available soil properties. Two packages form
-    the project:
-    1.  `r rforge("soilwaterfun")`
-    2.  `r rforge("soilwaterptf")`
+    the project: `r rforge("soilwaterfun")` and `r rforge("soilwaterptf")`.
 
 #### Hydrology and Oceanography
 
