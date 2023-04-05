@@ -3,7 +3,7 @@ name: Environmetrics
 topic: Analysis of Ecological and Environmental Data
 maintainer: Gavin Simpson
 email: ucfagls@gmail.com
-version: 2022-03-10
+version: 2023-04-05
 source: https://github.com/cran-task-views/Environmetrics/
 ---
 
@@ -520,10 +520,6 @@ sections for related packages.
     determined and visualized, and `r pkg("qualV")` which
     provides quantitative and qualitative criteria to compare models
     with data and to measure similarity of patterns
--   `r pkg("EcoHydRology")` provides a flexible foundation
-    for scientists, engineers, and policymakers to base teaching
-    exercises as well as for more applied use to model complex
-    eco-hydrological interactions.
 -   `r pkg("topmodel")` is a set of hydrological functions
     including an R implementation of the hydrological model TOPMODEL,
     which is based on the 1995 FORTRAN version by Keith Beven. New
