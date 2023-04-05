@@ -514,10 +514,8 @@ sections for related packages.
     statistical and graphical goodness-of-fit measures between observed
     and simulated values, mainly oriented to be used during the
     calibration, validation, and application of
-    hydrological/environmental models. Related packages are
-    `r pkg("tiger")`, which allows temporally resolved
-    groups of typical differences (errors) between two time series to be
-    determined and visualized, and `r pkg("qualV")` which
+    hydrological/environmental models. A related package is
+    `r pkg("qualV")` which
     provides quantitative and qualitative criteria to compare models
     with data and to measure similarity of patterns
 -   `r pkg("topmodel")` is a set of hydrological functions
