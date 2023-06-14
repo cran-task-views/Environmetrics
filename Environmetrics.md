@@ -383,7 +383,13 @@ marked animals, variously called 'capture-recapture',
     corrected using detection function models fitted using
     `r pkg("mrds")` or `r pkg("Distance")`.
     Spatial models are constructed as in `r pkg("mgcv")`.
--   `r pkg("singleRcapture")` provides methods for estimating the population size of hard-to-reach populations using single-source capture-recapture methods. It implements zero-truncated, zero-one-truncated, zero-truncated one-inflated and one-inflated zero-truncated count regression models, as well as the Chao and Zelterman models. It provides fit assessment functions, diagnostic plots and 4 methods for estimating the variance of the population size.
+-   `r pkg("singleRcapture")` provides methods for estimating the population
+    size of hard-to-reach populations using single-source capture-recapture
+    methods. It implements zero-truncated, zero-one-truncated, zero-truncated
+    one-inflated, and one-inflated zero truncated count regression models, as
+    well as the Chao and Zelterman models. It provides fit assessment functions,
+    diagnostic plots and four methods for estimating the variance of the
+    population size.
 
 
 Packages `r pkg("secr")` can also be used to simulate data
