@@ -200,27 +200,12 @@ suits their background.
     `capscale()` in `r pkg("vegan")`, fits constrained
     ordination models similar to RDA and CCA but with any
     dissimilarity coefficient.
--   Constrained Quadratic Ordination (CQO; formerly known as Canonical
-    Gaussian Ordination (CGO)) is a maximum likelihood estimation
-    alternative to CCA fit by Quadratic Reduced Rank Vector GLMs.
-    Constrained Additive Ordination (CAO) is a flexible alternative to
-    CQO which uses Quadratic Reduced Rank Vector GAMs. These methods and
-    more are provided in Thomas Yee's `r pkg("VGAM")`
-    package.
 -   Fuzzy set ordination (FSO), an alternative to CCA/RDA and CAP, is
     available in package `r pkg("fso")`.
     `r pkg("fso")` complements a recent paper on fuzzy sets
     in the journal *Ecology* by Dave Roberts (2008, Statistical analysis
     of multidimensional fuzzy set ordinations. *Ecology* **89(5)**,
     1246-1260).
-
-#### Dissimilarity coefficients
-
-Much ecological analysis proceeds from a matrix of dissimilarities
-between samples. A large amount of effort has been expended formulating
-a wide range of dissimilarity coefficients suitable for ecological data.
-A selection of the more useful coefficients are available in R and
-various contributed packages.
 
 Standard functions that produce, square, symmetric matrices of pair-wise
 dissimilarities include:
@@ -246,6 +231,29 @@ Gower's coefficient for mixed-mode data than `distance()` if a standard
 dissimilarity matrix is required. Function `gowdis()` in package
 `r pkg("FD")` also computes Gower's coefficient and
 implements extensions to ordinal variables.
+
+#### Model-based multivariate analysis
+
+Multivariate model-based methods follo follow typical statistical modeling principles, but for multivariate responses. Model-based ordination methods reduce dimensionality of a model component (usually predictor effects of a random-effect covariance matrix), so that they share features with both ordination methods (the ordination) and regression (e.g., information criteria and residual diagnostics). It thus requires specifying a response distribution, and link function, instead of a dissimilarity measure. Unlike "classical" ordination methods, it is usually required to specify the number of ordination axes a-priori of fitting the model. The following packages have different features and functionalities, but most support creating ordinations.
+
+-   The `r pkg("VGAM")` package implements ordination based on fixed effects. Ordination plots are constructed with the `biplot()` or `lvplot()` functions. Implemented ordination methods include,
+    - Unconstrained ordination with the `rcim()` or `grc()` functions. `grc()` implements Goodman's RC association model, and `rcim()` generically fits           row-column interaction models.
+    - Constrained ordination with linear responses using the `rrvglm()` function.
+    - Constrained Quadratic Ordination (CQO; formerly known as Canonical Gaussian Ordination (CGO)), which is a maximum likelihood estimation               alternative to CCA fit by Quadratic Reduced Rank Vector GLMs, with the `cqo()` function.
+    - Constrained Additive Ordination (CAO), an extension of CQO to flexible response curves, with the `cao()` function.
+- The `r pkg("mvabund")` does not perform ordination, but fits multivariate models following GLM principles, potentially with a residual correlation structure for species. This is implemented with the `manylm()`, `manyglm()`, `traitglm()`, and `manyany()`, functions. The `coefplot()` function plots species responses to predictors with confidence intervals, and hypothesis testing based on resampling strategies is available via the `anova()` function.
+- The `r pkg("Hmsc")` fits Joint Species Distribution Models (JSDMs) with a latent variable formulation for normal responses, binary responses, and counts in a Bayesian framework. "HMSC" stands for "Hierarchical modeling of species communities", and consequently the package allows to fit hierarchical models for multivariate responses. Its main function is `Hmsc()`, latent variables can be visualized with the `biPlot()` function. It has many different tools, including the option to separately formulate models for different sampling levels, to include additional random-effects, or to phylogenetically structure species responses to environmental predictors. HMSC determines the number of latent variables from the data, which thus do not need to be specified.
+- The `r pkg("gllvm")` fits latent variable models for ordination and JSDM purposes, with random-effects, in a relatively fast manner using `r pkg("TMB")`. Its main function `gllvm()` allows to fit unconstrained, constrained, and concurrent ordinations . Unlike in VGAM, unconstrained ordination is based on a random-effects formulation. Constrained ordination is supported both as fixed- and random-effects formulation. Concurrent ordination by definition always includes random-effects, but is also supported as a fully random-effects specification with random slopes. Fourth-corner models with laten variables and random slopes are also supported. The ordination is visualized with the `ordiplot()` function, which also allows visualization of statistical uncertainty of the site scores.
+- The `r pkg("ecoCopula")` with main functions `cgr()` and `cord()` uses a Gaussian copula approach to fit multivariate models. Both functions first require fitting a secondary model, from which residuals are extracted to which the package fits its method. `cgr()` fits graphical model, with the purpose of visualizing pairwise associations of species. The resulting network graph can be visualized using the `plot()` function. The `cord()` function fits a model-based ordination with Gaussian copulas, which can be visualized using `plot(, biplot = TRUE)`. There are no statistical uncertainties available.
+- The `r pkg("glmmTMB")` generically fits random-effects models using `r pkg("TMB")`, and can thus fit model-based unconstrained ordination with additional random-effects. Its main function is `glmmTMB`, and model-based ordination is fitted using the `rr()` covariance structure in the model. There is no function to visualize the ordination at present.
+
+#### Dissimilarity coefficients
+
+Much ecological analysis proceeds from a matrix of dissimilarities
+between samples. A large amount of effort has been expended formulating
+a wide range of dissimilarity coefficients suitable for ecological data.
+A selection of the more useful coefficients are available in R and
+various contributed packages.
 
 #### Cluster analysis
 
