@@ -682,56 +682,43 @@ analysis, and plotting of palaeoecological data.
 Several other relevant contributed packages for R are available that do
 not fit under nice headings.
 
-- Andrew Robinson's `r pkg("equivalence")` package
-    provides some statistical tests and graphics for assessing tests of
-    equivalence. Such tests have similarity as the alternative
-    hypothesis instead of the null. The package contains functions to
-    perform two one-sided t-tests (TOST) and paired t-tests of
-    equivalence.
-- Thomas Petzoldt's `r pkg("simecol")` package provides
-    an object oriented framework and tools to simulate ecological (and
-    other) dynamic systems within R. See the [simecol
-    website](https://www.simecol.de/) and a [R
-    News](https://CRAN.R-project.org/doc/Rnews)
-    [article](https://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf) on
-    the package for further information.
-- Functions for circular statistics are found in
-    `r pkg("CircStats")` and
-    `r pkg("circular")`.
-- Package `r pkg("e1071")` provides functions for latent
-    class analysis, short time Fourier transform, fuzzy clustering,
-    support vector machines, shortest path computation, bagged
-    clustering, naive Bayes classifier, and more\...
-- Package `r pkg("pgirmess")` provides a suite of
-    miscellaneous functions for data analysis in ecology.
-- `r pkg("mefa")` provides functions for handling and
-    reporting on multivariate count data in ecology and biogeography.
-- Sensitivity analysis of models is provided by package
-    `r pkg("sensitivity")`.
-    `r pkg("sensitivity")` contains a collection of
-    functions for factor screening and global sensitivity analysis of
-    model output.
-- Functions to analyse coherence, boundary clumping, and turnover
-    following the pattern-based metacommunity analysis of [Leibold and
-    Mikkelson (2002)](https://dx.doi.org/10.1034/j.1600-0706.2002.970210.x)
-    are provided in the `r pkg("metacom")` package.
+- Andrew Robinson's `r pkg("equivalence")` package provides some statistical
+  tests and graphics for assessing tests of equivalence. Such tests have
+  similarity as the alternative hypothesis instead of the null. The package
+  contains functions to perform two one-sided t-tests (TOST) and paired
+  t-tests of equivalence.
+- Thomas Petzoldt's `r pkg("simecol")` package provides an object oriented
+  framework and tools to simulate ecological (and other) dynamic systems within
+  R. See the [simecol website](https://www.simecol.de/) and a [R
+  News](https://CRAN.R-project.org/doc/Rnews) [article](https://CRAN.R-project.org/doc/Rnews/Rnews_2003-3.pdf) on the package for further information.
+- Functions for circular statistics are found in `r pkg("CircStats")` and
+  `r pkg("circular")`.
+- Package `r pkg("e1071")` provides functions for latent class analysis, short
+  time Fourier transform, fuzzy clustering, support vector machines, shortest
+  path computation, bagged clustering, naive Bayes classifier, and more&hellip;
+- Package `r pkg("pgirmess")` provides a suite of miscellaneous functions for
+  data analysis in ecology.
+- `r pkg("mefa")` provides functions for handling and reporting on multivariate
+  count data in ecology and biogeography.
+- Sensitivity analysis of models is provided by package `r pkg("sensitivity")`.
+  `r pkg("sensitivity")` contains a collection of functions for factor screening
+  and global sensitivity analysis of model output.
+- Functions to analyse coherence, boundary clumping, and turnover following the
+  pattern-based metacommunity analysis of [Leibold and Mikkelson
+  (2002)](https://dx.doi.org/10.1034/j.1600-0706.2002.970210.x) are provided in
+  the `r pkg("metacom")` package.
 - Growth curve estimation via noncrossing and nonparametric regression
-    quantiles is implemented in package
-    `r pkg("quantregGrowth")`. A supporting paper is [Muggeo
-    et al. (2013)](https://dx.doi.org/10.1007/s10651-012-0232-1).
-- The `r pkg("siplab")` package provides an R platform for
-    experimenting with spatially explicit individual-based vegetation
-    models. A supporting paper is [García, O.
-    (2014)](http://www.mcfns.com/index.php/Journal/article/view/6_36).
-- `r pkg("PMCMRplus")` provides parametric and
-    non-parametric many-to-one and all-pairs multiple comparison
-    procedures for continuous or at least interval based variables. The
-    package provides implementations of a wide range of tests involving
-    pairwise multiple comparisons.
-
-
+  quantiles is implemented in package `r pkg("quantregGrowth")`. A supporting
+  paper is [Muggeo et al. (2013)](https://dx.doi.org/10.1007/s10651-012-0232-1).
+- The `r pkg("siplab")` package provides an R platform for experimenting with
+  spatially explicit individual-based vegetation models. A supporting paper is
+  [García, O. (2014)](http://www.mcfns.com/index.php/Journal/article/view/6_36).
+- `r pkg("PMCMRplus")` provides parametric and non-parametric many-to-one and
+  all-pairs multiple comparison procedures for continuous or at least interval
+  based variables. The package provides implementations of a wide range of tests involving pairwise multiple comparisons.
 
 ### Links
+
 - [The vegan development site on GitHub](https://vegandevs.github.io/vegan/index.html)
 - [Thomas Yee's VGAM package for R](http://www.stat.auckland.ac.nz/~yee/VGAM/)
 - [The cocorresp development site on GitHub](https://gavinsimpson.github.io/cocorresp/)
