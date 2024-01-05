@@ -539,10 +539,10 @@ tracking data under *Moving objects, trajectories*.
     used methods to analyse, visualize, and interpret wind data. Wind
     resource analyses can subsequently be combined with characteristics
     of wind turbines to estimate the potential energy production.
-- The `r pkg("Rbeast")` package provides a Bayesian model averaging method 
-    to decompose time series into abrupt changes, trend, and seasonality and 
-    can be used for changepoint detection, time series decomposition, and 
-	nonlinear trend analysis.	
+- The `r pkg("Rbeast")` package provides a Bayesian model averaging method
+  to decompose time series into abrupt changes, trend, and seasonality and
+  can be used for changepoint detection, time series decomposition, and
+  nonlinear trend analysis.
 
 Additionally, a fuller description of available packages for time series
 analysis can be found in the `r view("TimeSeries")` task
@@ -567,7 +567,6 @@ York. Other packages for extreme value theory include
 - `r pkg("extRemes")`
 
 See also the `r view("ExtremeValue")` task view for further information.
-
 
 #### Phylogenetics and evolution
 
@@ -604,22 +603,10 @@ specifically related to the fields of hydrology and oceanography. Also
 see the [Extreme Value](#extremes) and the [Climatology](#secclimatology)
 sections for related packages.
 
-- `r pkg("hydroTSM")` is a package for management,
-    analysis, interpolation and plotting of time series used in
-    hydrology and related environmental sciences.
-- `r pkg("hydroGOF")` is a package implementing both
-    statistical and graphical goodness-of-fit measures between observed
-    and simulated values, mainly oriented to be used during the
-    calibration, validation, and application of
-    hydrological/environmental models. A related package is
-    `r pkg("qualV")` which
-    provides quantitative and qualitative criteria to compare models
-    with data and to measure similarity of patterns
-- `r pkg("topmodel")` is a set of hydrological functions
-    including an R implementation of the hydrological model TOPMODEL,
-    which is based on the 1995 FORTRAN version by Keith Beven. New
-    functionality is being developed as part of the
-    `r rforge("RHydro")` package on R-Forge.
+- `r pkg("topmodel")` is a set of hydrological functions including an R
+  implementation of the hydrological model TOPMODEL, which is based on the 1995
+  FORTRAN version by Keith Beven. New functionality is being developed as part
+  of the `r rforge("RHydro")` package on R-Forge.
 - Package `r pkg("seacarb")` provides functions for
     calculating parameters of the seawater carbonate system.
 - Stephen Sefick's `r pkg("StreamMetabolism")` package
@@ -637,6 +624,9 @@ sections for related packages.
 - `r pkg("rtop")` is a package for geostatistical
     interpolation of data with irregular spatial support such as runoff
     related data or data from administrative units.
+- A related package is `r pkg("qualV")` which provides quantitative and
+  qualitative criteria to compare models with data and to measure similarity of
+  patterns
 
 #### [Climatology]{#secclimatology}
 
