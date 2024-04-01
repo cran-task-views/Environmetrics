@@ -492,6 +492,10 @@ tracking data under *Moving objects, trajectories*.
 - Package `r pkg("popbio")` can be used to construct and
     analyse age- or stage-specific matrix population models.
 
+- Package `r pkg("biogrowth")` implements functions for modelling the growth of populations.
+    It includes functions for model fitting and prediction under either constant or dynamic
+    environmental conditions. It also includes functions for model comparison/selection.
+
 #### Environmental time series
 
 - Time series objects in R are created using the `ts()` function,
