@@ -302,6 +302,11 @@ features and functionalities, but most support creating ordinations.
    observations. Output can be plotted with `gjamPlot()` or an ordination with `gjamOrdination()`.
 - `r pkg("spOccupancy")` fits occupancy models for single- and multi-species
   responses, and can be used to fit JSDMs that account for imperfect detection.
+  - `r pkg("mvgam")` fits Bayesian State-Space Generalized Additive Models for 
+  many data types including counts, binary observations, proportions, non-negative 
+  real values and unbounded real values. `mvgam` can fit a wide range of hierarchical 
+  ecological models including N-mixture models, Latent Variable-based Joint Species 
+  Distribution Models, and multivariate time series models with imperfect detection.
 
 #### Dissimilarity coefficients
 
