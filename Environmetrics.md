@@ -501,6 +501,10 @@ tracking data under *Moving objects, trajectories*.
     It includes functions for model fitting and prediction under either constant or dynamic
     environmental conditions. It also includes functions for model comparison/selection.
 
+- Package `r pkg("lefko3")` creates and analyzes all forms of matrix projection models,
+  including stage-based, historical, age-based, and age-by-stage, as well as discretized
+  integral projection models.
+  
 #### Environmental time series
 
 - Time series objects in R are created using the `ts()` function,
